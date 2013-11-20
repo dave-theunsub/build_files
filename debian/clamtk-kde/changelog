@@ -1,0 +1,67 @@
+clamtk-kde (0.15-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update project URL.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 10 Nov 2013 06:31:30 -0600
+
+clamtk-kde (0.08-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added new language support: Slovene (sl_SI).
+  * Changed minimum clamtk requirement to (>= 3.00).
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 19 Jan 2008 09:41:02 -0600
+
+clamtk-kde (0.07-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added new language support: Galician (gl_ES).
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 08 Sep 2007 17:45:15 -0500
+
+clamtk-kde (0.06-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added new language support (sv_SE).
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 07 Aug 2007 17:19:56 -0500
+
+clamtk-kde (0.05-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added new language support (cs_CZ).
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Mon, 12 Feb 2007 11:39:05 -0600
+
+clamtk-kde (0.04-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.mauroni@gmail.com>  Sat, 12 Aug 2006 08:32:05 -0500
+
+clamtk-kde (0.03-1) unstable; urgency=low
+
+  * New upstream release.
+  * Returned to "all" build, as opposed to i386.
+
+ -- Dave Mauroni <dave.mauroni@gmail.com>  Mon, 3 Jul 2006 06:44:31 -0500
+
+
+clamtk-kde (0.02-1) unstable; urgency=low
+
+  * Language support was added.
+  * The .desktop entry file was improved.
+  * The rpm .spec file was cleaned up. The rpm should work for
+    FC3, FC4, and FC5.
+  * The rpm is now noarch.
+  * Added a manpage.
+
+ -- Dave Mauroni <dave.mauroni@gmail.com>  Thu, 27 Apr 2006 18:22:19 -0600
+
+clamtk-kde (0.01-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Dave Mauroni <dave.mauroni@gmail.com>  Fri, 20 Jan 2006 10:28:31 -0600
+

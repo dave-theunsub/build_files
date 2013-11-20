@@ -1,0 +1,827 @@
+clamtk (5.01-1) unstable; urgency=low
+
+  * Update to 5.01.
+  * Updated libgtk2-perl requirements to >= 1.241.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Wed, 20 Nov 2013 09:36:10 -0600
+
+clamtk (5.00-1) unstable; urgency=low
+
+  * Update to 5.00.
+  * Updated project URL.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 09 Nov 2013 09:17:23 -0600
+
+clamtk (4.45-1) unstable; urgency=low
+
+  * Update to 4.45.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 24 May 2013 07:33:09 -0500
+
+clamtk (4.44-1) unstable; urgency=low
+
+  * Update to 4.44.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 22 Dec 2012 09:40:00 -0600
+
+clamtk (4.43-1) unstable; urgency=low
+
+  * Update to 4.43.
+  * Changed/added lines in control file and .desktop.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 2 Dec 2012 14:36:25 -0600
+
+clamtk (4.42-1) unstable; urgency=low
+
+  * Update to 4.42.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Wed, 12 Sep 2012 06:55:08 -0500
+
+clamtk (4.41-1) unstable; urgency=low
+
+  * Update to 4.41.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 01 Jun 2012 18:36:27 -0500
+
+clamtk (4.40-1) unstable; urgency=low
+
+  * Update to 4.40.
+  * Images located under images/ now.
+  * Removed dependency libfile-find-rule-perl.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 25 May 2012 09:06:12 -0500
+
+clamtk (4.39-1) unstable; urgency=low
+
+  * Update to 4.39.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 20 Apr 2012 20:15:25 -0500
+
+clamtk (4.38-1) unstable; urgency=low
+
+  * Update to 4.38.
+  * Installing clamtk.png now as well as clamtk.xpm.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 24 Mar 2012 12:12:16 -0500
+
+clamtk (4.37-1) unstable; urgency=low
+
+  * Update to 4.37.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 3 Feb 2012 17:24:59 -0600
+
+clamtk (4.36-1) unstable; urgency=low
+
+  * Update to 4.36.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 15 Oct 2011 07:19:53 -0500
+
+clamtk (4.35-1) unstable; urgency=low
+
+  * Update to 4.35.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Thu, 08 Sep 2011 13:11:30 -0500
+
+clamtk (4.34-1) unstable; urgency=low
+
+  * Update to 4.34.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 12 Aug 2011 18:15:14 -0500
+
+clamtk (4.33-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 11 Jun 2011 07:34:33 -0500
+
+clamtk (4.32-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 24 Apr 2011 20:29:27 -0500
+
+clamtk (4.31-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 08 Jan 2011 17:50:07 -0600
+
+clamtk (4.30-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 06 Nov 2010 19:18:28 -0500
+
+clamtk (4.29-1) unstable; urgency=low
+
+  * New upstream release.
+  * ClamAV dependency is now >= 0.95.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 10 Sep 2010 18:33:06 -0500
+
+clamtk (4.28-1) unstable; urgency=low
+
+  * New upstream release.
+  * Removed hal as dependency (deprecated).
+  * Added udev as dependency.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 17 Aug 2010 07:23:49 -0500
+
+clamtk (4.27-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added hal as dependency.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 9 Jul 2010 20:02:15 -0500
+
+clamtk (4.26-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 30 Apr 2010 18:51:28 -0500
+
+clamtk (4.25-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 5 Mar 2010 17:11:13 -0600
+
+clamtk (4.24-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 27 Feb 2010 19:04:31 -0600
+
+clamtk (4.23-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 19 Jan 2010 17:03:08 -0600
+
+clamtk (4.22-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 25 Dec 2009 12:40:01 -0600
+
+clamtk (4.21-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 4 Dec 2009 20:40:16 -0600
+
+clamtk (4.20-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 31 Oct 2009 14:15:56 -0500
+
+clamtk (4.19-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 6 Oct 2009 13:12:25 -0500
+
+clamtk (4.18-1) unstable; urgency=low
+
+  * New upstream release.
+  * Library path was fixed - removed the no-longer-needed patch.
+  * Removed dependency libconfig-tiny-perl.
+  * Added dependency cron.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 19 Sep 2009 08:56:01 -0500
+
+clamtk (4.17-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 8 Aug 2009 08:14:30 -0500
+
+clamtk (4.16-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 11 Jul 2009 07:31:33 -0500
+
+clamtk (4.15-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 20 Jun 2009 10:17:45 -0500
+
+clamtk (4.14-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 13 Jun 2009 09:04:56 -0500
+
+clamtk (4.13-1) experimental; urgency=low
+
+  * Added line in rules to change el_GR.mo file to el.mo (should be a patch).
+    Debian and Fedora have different locale schemes for this.
+  * Removed 01-fix_clamtk.desktop.patch.
+  * Removed clamtk-kde.desktop file. No longer needed.
+  * Menu file change to Applications/System/Security.
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 24 May 2009 18:15:17 -0500
+
+clamtk (4.12-1) experimental; urgency=low
+
+  * Removed dependency bind9-host.
+  * Added dependency libnet-dns-perl.
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 25 Apr 2009 08:48:01 -0500
+
+clamtk (4.11-1) experimental; urgency=low
+
+  * Change in clamtk-kde.desktop file to point to the right icon -
+    should be clamtk not clamtk-kde.
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 22 Mar 2009 07:42:54 -0500
+
+clamtk (4.10-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 17 Feb 2009 18:14:39 -0600
+
+clamtk (4.09-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 13 Feb 2009 18:19:45 -0600
+
+clamtk (4.08-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 27 Dec 2008 20:16:04 -0600
+
+clamtk (4.07-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 20 Dec 2008 07:03:47 -0600
+
+clamtk (4.06-1) experimental; urgency=low
+
+  * New upstream release.
+  * Added bind9-utils dependency.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 7 Dec 2008 07:51:10 -0600
+
+clamtk (4.05-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Thu, 27 Nov 2008 17:55:57 -0600
+
+clamtk (4.04-2) experimental; urgency=low
+
+  * debian/control:
+    - Depends wrapped for better diff inspections
+    - Suggests on unzip, unrar-free | unrar removed, not used anymore
+
+ -- David Paleino <d.paleino@gmail.com>  Sat, 22 Nov 2008 08:51:02 +0100
+
+clamtk (4.04-1) experimental; urgency=low
+
+  * New upstream release
+  * debian/control:
+    - DM-Upload-Allowed set.
+    - zenity added to Depends.
+  * New code structure:
+    - all code is now organized in Perl Modules (.pm):
+      + put those files into /usr/share/perl5/ClamTk/
+        (debian/dirs and debian/install updated)
+      + fix clamtk not to refer to /usr/lib/
+        (debian/patches/02-fix_clamtk_library_path.patch added)
+  * debhelper compatibility set to >= 6.
+
+ -- David Paleino <d.paleino@gmail.com>  Fri, 21 Nov 2008 19:54:43 +0100
+
+clamtk (3.11-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- David Paleino <d.paleino@gmail.com>  Thu, 11 Sep 2008 12:58:54 +0200
+
+clamtk (3.10-2) unstable; urgency=low
+
+  * debian/control:
+    - added alternative Depends on clamav-data, so that it can be used
+      also offline (Closes: #486691)
+
+ -- David Paleino <d.paleino@gmail.com>  Tue, 17 Jun 2008 21:58:43 +0200
+
+clamtk (3.10-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/patches/:
+    - 01-fix_clamtk.desktop.patch updated to correctly apply to new
+      sources
+  * debian/control:
+    - updated Standards-Version to 3.8.0 (no changes needed)
+
+ -- David Paleino <d.paleino@gmail.com>  Mon, 16 Jun 2008 10:57:42 +0200
+
+clamtk (3.09-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- David Paleino <d.paleino@gmail.com>  Mon, 02 Jun 2008 17:46:10 +0200
+
+clamtk (3.08-1) unstable; urgency=low
+
+  * New upstream release (Closes: #464554)
+  * Lowering debhelper dependency: it's not needed and makes clamtk
+    non-backportable (Closes: #462547)
+  * debian/control:
+    - Vcs-Browser updated - now sending the correct querystring to
+      correctly view the repository
+  * debian/rules:
+    - build target updated to generate .mo files
+    - clean target updated to clean generated .mo files and move upstream
+      ones back
+
+ -- David Paleino <d.paleino@gmail.com>  Sat, 09 Feb 2008 17:59:09 +0100
+
+clamtk (3.07-2) unstable; urgency=low
+
+  * debian/dirs and debian/rules updated:
+    - Installing locales to the binary package, sorry I forgot to include
+      them all this time!
+
+ -- David Paleino <d.paleino@gmail.com>  Mon, 21 Jan 2008 11:43:19 +0100
+
+clamtk (3.07-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/compat bumped to 6
+  * debian/control:
+    - depending on debhelper >= 6
+    - updated dependencies on ClamAV >= 0.90
+    - added new dependency: libconfig-tiny-perl
+  * debian/copyright updated
+
+ -- David Paleino <d.paleino@gmail.com>  Sun, 20 Jan 2008 19:30:46 +0100
+
+clamtk (3.06-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/patches/01-fix_clamtk.desktop.patch updated
+  * debian/control:
+    - Standards-Version bumped to 3.7.3.0
+
+ -- David Paleino <d.paleino@gmail.com>  Wed, 02 Jan 2008 11:00:08 +0100
+
+clamtk (3.05-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control:
+    - now using quilt instead of dpatch
+    - added Homepage, Vcs-Svn and Vcs-Browser fields
+  * debian/patches/:
+    - 00list removed (dpatch)
+    - 01-fix_clamtk.desktop.dpatch removed (dpatch)
+    - series added (quilt)
+    - 01-fix_clamtk.desktop.patch added (quilt)
+  * debian/rules:
+    - updated to handle quilt patch system
+
+ -- David Paleino <d.paleino@gmail.com>  Wed, 19 Dec 2007 17:50:19 +0100
+
+clamtk (3.04-1) unstable; urgency=low
+
+  * New upstream release:
+    - 3.04:
+      - Improvement to ensure all downloaded files are visible for
+        the save-as function.
+    - 3.03:
+      - Added "Save As" function as a post-scan option. This is
+        useful for times when ClamTk intercepts a file download; it
+        can be scanned and then saved from its temporary folder.
+      - Added File::Copy to handle the above.
+      - Removed now-unused subroutine.
+  * debian/control:
+    - Depends field wrapped
+    - ${misc:Depends} removed
+  * debian/docs removed - passing arguments directly to dh_installdocs
+  * debian/patches/01-fix_clamtk.desktop.dpatch fixed - now it patches
+    also the MimeType field; otherwise it will open also common files
+    as MP3s, PNGs, or archives (.tar.bz2, .tar.gz, .zip and .rar).
+  * debian/menu - section edited, now it is in
+    Applications/System/Administration.
+
+ -- David Paleino <d.paleino@gmail.com>  Wed, 19 Sep 2007 19:51:25 +0200
+
+clamtk (3.02-1) unstable; urgency=low
+
+  * New upstream release:
+    - 3.02:
+      - Galician language file (gl_ES) has been added. Thanks, Román!
+      - CentOS rpms now have the .el5 suffix. I don't actually HAVE
+        RHEL, but this is in line with Dag's naming.
+      - Re-added the out-of-date virus signatures warning.
+    - 3.01:
+      - Small fixes to display the correct virus db information.
+      - Swedish language file added to Debian and FC3 builds.
+    - 3.00:
+      - Extended the signature updates time - it's usually needed.
+      - Fixed the Russian language file, which is now UTF-8.
+        Thanks, Vitaly!
+      - Added a line for internal encoding. Thanks, Vitaly!
+      - Added Swedish language file. Thanks, Petter!
+    - 2.99:
+      - Removed hundreds of excess lines.
+      - GUI changes.
+      - Most language files updated.
+      - The "Delete Infected Files" option has been removed.
+      - "No Maximum Size" option has been added. It may be changed
+        in the future to allow for more choice.
+  * Bug fixed upstream: "No virus definitions found" (Closes: #437015)
+  * debian/menu changed to reflect new Debian Menu Subpolicy
+  * debian/control:
+    - unneeded dependency from xsltproc, docbook-xsl and docbook-xml
+    - dependency added from dpatch
+  * debian/clamtk.xml removed, we're using the upstream manpage now
+  * debian/rules:
+    - purged from unneeded lines
+    - added rules needed by dpatch
+  * debian/install added
+  * debian/patches/* added:
+    - 01-fix_clamtk.desktop - fixes unneeded Encoding line in .desktop
+      file, fixes wrong Categories line.
+
+ -- David Paleino <d.paleino@gmail.com>  Sun, 09 Sep 2007 23:13:27 +0200
+
+clamtk (2.32-1) unstable; urgency=low
+
+  * Initial Debian release (Closes: #316781)
+
+ -- David Paleino <d.paleino@gmail.com>  Thu, 17 May 2007 23:54:55 +0200
+
+clamtk (2.31-0ubuntu1) feisty; urgency=low
+
+  * New upstream release:
+    - 2.31:
+      - The Polish translation (pl_PL) has been updated and now uses UTF-8.
+    - 2.30:
+      - This release fixes issues when using ClamAV 0.90. (LP: #90790)
+    - 2.29:
+      - Will now use {daily,main}.cvd.rpmnew if {daily,main}.cvd files are 
+        not found. This should only impact rpm-based distros, and even then 
+        should only last until the user runs freshclam to update.
+    - 2.28:
+      - Added Czech (cs_CZ) language support.
+      - Minor change to allow for mostly 0.90 rc support - probably not 
+        totally ready yet.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 26 Mar 2007 10:00:48 +0200
+
+clamtk (2.27-0ubuntu1) feisty; urgency=low
+
+  * New upstream release:
+    - Testing new clamtk icon! Provide feedback!
+    - Minor changes to be more backwards-compatible with older versions of 
+      Gtk2.
+    - Improved size function to be more precise.
+    - Updated the .desktop file; may change this again.
+  * debian/install:
+    - install clamtk.xpm instead of clam.xpm
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Fri, 12 Jan 2007 18:54:38 +0100
+
+clamtk (2.26-0ubuntu1) feisty; urgency=low
+
+  * New upstream release:
+    - 2.26:
+      - Fixed a display lag with files scanned and the display.
+      - Minor cleanups (improved two subs).
+      - Extended the signature update timeout slightly.
+     - 2.25:
+       - Fixed bug whereby files were not being deleted when requested.
+       - A few other cleanups.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 14 Nov 2006 16:00:03 -0800
+
+clamtk (2.24-0ubuntu1) edgy; urgency=low
+
+  * New upstream release:
+    - Added additional language support - Spanish (es_ES), Polish (pl_PL).
+    - Updated most translation files - fixes the change from 2.22 
+      ("Select Files").
+    - Extended the signature update timeout time. This is because there have 
+      been more frequent - and therefore larger - updates. This was 
+      occasionally misinterpreted as not having been able to update.
+  * debian/patches/remove-first_run-from-clamtk.patch:
+    - updated.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 25 Sep 2006 09:13:12 +0200
+
+clamtk (2.23-0ubuntu2) edgy; urgency=low
+
+  * debian/*:
+    - packaging changes - thanks Dave M.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 29 Aug 2006 11:42:19 +0200
+
+clamtk (2.23-0ubuntu1) edgy; urgency=low
+
+  * New upstream release:
+    - Recursive scanning works again.
+    - Updated rpm specfile.
+    - Updated Brazilian (pt_BR) translation.
+    - Updated File selection to Gtk2 interface.
+    - Stop functionality has been improved.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 22 Aug 2006 11:32:45 +0200
+
+clamtk (2.22-0ubuntu1) edgy; urgency=low
+
+  * New upstream release:
+    - Added additional language support - Russian (ru_RU).
+    - Multiple files can be selected with the "Scan a File" option now.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 31 Jul 2006 22:14:32 +0200
+
+clamtk (2.21-0ubuntu1) edgy; urgency=low
+
+  * New upstream release:
+    - Added additional language support - French (fr_FR) and Italian (it_IT).
+    - Cleaned up the About dialog.
+    - The Italian and Danish translations and their lines in the .desktop 
+      files were updated.
+    - Added /dev to list of directories (such as /proc and /sys) where files
+      cannot be automatically deleted.
+    - Minor gui enhancements.
+  * debian/control:
+    - made debhelper and cdbs Build-Depends not Build-Depends-Indep.
+    - bumped Standards-Version.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 10 Jul 2006 17:48:22 +0200
+
+clamtk (2.20-0ubuntu1) edgy; urgency=low
+
+  * New upstream release:
+    - 2.20:
+      - First l18n version - support for German (de_DE), Portugese (pt_BR), 
+        Danish (da_DK), and Chinese (zh_CN)! This requires a new requirement: 
+        perl-gettext.
+      - Removed clamtk.xml file.
+      - Changed initial warning dialog to be more generic and not 
+        Fedora-centric (regarding the editing of freshclam.conf).
+    - 2.19:
+      - Added additional paths to look for daily.cvd and main.cvd 
+        (/usr/share/clamav and /usr/local/share/clamav). Thanks to Ronny S.
+      - Fixed an issue where quarantined viruses were not being removed 
+        (under "Empty Quarantine Folder"). Thanks to Ronny S.
+      - Improved older code (eg., format => printf); mostly PBP-compliant!
+      - Re-added --block-encrypted to clamscan scanning options. Obviously 
+        not all encrypted rars/zips are viruses, but this may provide some 
+        warning for those that are.
+    - 2.18:
+      - Finally fixed some column sizing issues in the display.
+      - Updated some .desktop file translations (fr,pl,pt,pt_BR ). (Thanks to 
+        Alain B., PLD Linux, Andre F.).
+      - Combined the View Histories and Manage Histories options under the 
+        View tab.
+   * debian/control:
+     - added liblocale-gettext-perl to {Build-,}Depends.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Fri, 23 Jun 2006 12:26:07 +0200
+
+clamtk (2.17-0ubuntu1) dapper; urgency=low
+
+  * New upstream release:
+    - 2.17:
+      - Removed delete option if scanning /proc or /sys to
+        avoid $bad_things. Scanning is still permitted.
+      - Able to release single Fedora Core rpm now rather than
+        a separate one for FC3 (due to outdated perl-Gtk2 rpm).
+      - Changed the required clamav rpm version back to >= 83. The
+        latest and greatest clamav technically isn't required, although
+        it would be better to use it.
+      - Changed the required perl-Gtk2 version back to >= 1.102.
+        A small code change can check for which version is installed.
+        Thanks to Muppet.
+      - Changed max size of file scanned from 15MB to 20MB.
+    - 2.16:
+      - Fixed bug where non-existant subroutine called
+        (due to it being renamed several versions ago).
+      - The man page was cleaned up.
+      - Fixed Korean translation.
+      - FC3's perl-Gtk2 is outdated - separate release is necessary.
+    - 2.15:
+      - Fixed number of virus signatures count.
+      - Added option to hide the gui toolbar (ctrl-T).
+      - Removed unnecessary Gtk2::SimpleMenu dependency.
+      - Re-added tooltips for right-click options.
+      - Added man page.
+      - Added some translations to the .desktop file
+        (German, French, Spanish, Italian, Korean, Chinese).
+      - Changed arch of rpms to noarch since it's perl. They are
+        now rpmlint-clean.
+      - Removed fc4/fc3 from spec files. One rpm should suffice.
+    - 2.14:
+      - Commandline options are accepted again. This goes towards
+        being able to right-click and scan via file browsers like
+        konqueror, nautilus, and eventually xffm.
+      - Added better warning for when "Delete" is selected from the
+        onset (toolbar).
+      - Improved menubar code.
+      - Added Option to "Follow Symbolic Links". This could be used for
+        scanning certain directories, but may be removed if deemed
+        not useful.
+      - When files that are symbolic links and tagged as infected, the
+        target file is not quarantined or deleted, only the linked name.
+        Added a warning to the README regarding this. This is in line
+        with the way 'clamscan --remove' works in the same situation.
+      - Added more keyboard shortcuts.
+      - Combined some popup code into the same subroutine.
+  * debian/control:
+    - bumped clamav and libgtk2-perl requirements.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon,  1 May 2006 08:30:32 +0200
+
+clamtk (2.13-0ubuntu1) dapper; urgency=low
+
+  * New upstream release:
+    - Added right-click functionality to quarantine and delete.
+      Should be much safer than initially selecting "Delete" (under
+      "Actions") and running it. This will prevent false-positive
+      mistakes.
+    - Removed File::Copy as a dependency.
+    - Removed single-click tooltips on the SimpleList - they're
+      unnecessary now.
+    - Now using 'insert' to avoid using deprecated commands (toolbar).
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Sun,  1 Jan 2006 19:15:40 +0100
+
+clamtk (2.12-0ubuntu1) dapper; urgency=low
+
+  * New upstrem release:
+    - Histories can now also be individually deleted.
+    - Added "--broken-executable" to clamscan options (under "Options"),
+      which may be useful in some cases.
+    - Added quick warning for when the Delete option (under "Actions")
+      is selected.
+    - Removed LWP::Simple as a dependency, since it hasn't been used
+      or needed in quite some time. Spec and control files can be updated
+      accordingly.
+    - Extended virus update timeout from 10 to 15.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Sun, 25 Dec 2005 13:51:20 +0100
+
+clamtk (2.11-0ubuntu1) dapper; urgency=low
+
+  * New upstream release:
+    - Fixed minor issue with getting files.
+    - Rows are now single-clicked for more info. Removed "sub
+      row_clicked". Attempted to make the status more readable.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Sat, 10 Dec 2005 18:13:11 +0100
+
+clamtk (2.10-0ubuntu1) dapper; urgency=low
+
+  * New upstream release:
+    - Fixed feature with the stop button where it crashed if the scanner
+      wasn't running.
+    - Moved "directories scanned" feature back in (logs).
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 28 Nov 2005 10:01:42 +0100
+
+clamtk (2.09-0ubuntu1) dapper; urgency=low
+
+  * New upstream release:
+    - Fixed speed issue - should be very close to command line speed.
+    - Moved size column back in - had been removed to deal with some issues.
+  * debian/patches/remove-first_run-from-clamtk.patch:
+    - Updated.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Sun, 27 Nov 2005 14:49:57 +0100
+
+clamtk (2.08-0ubuntu1) dapper; urgency=low
+
+  * New upstream release:
+    - Fixed justification problem with $top_label (set_justify). (?)
+    - Fixed quarantine/delete bug where, when a file in an archive is 
+      detected as a virus, it continues to try to quarantine/delete the 
+      archive.
+    - Removed cabextract functionality.
+    - Removed "size" display. Size only comes into play when greater than 
+      15MiB (checked during the scan routine).
+    - Using SIG{ALRM} for timeout on signature updates now.
+    - Not all file types are detected by the 'file' command - added 'unknown' 
+      for these.
+    - FC3 spec file changed - now written for Fedora Extras. This means the 
+      ClamAV dependencies are clamav, clamav-lib, and clamav-data.
+  * debian/patches/remove-first_run-from-clamtk.patch:
+    - Updated.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Fri, 11 Nov 2005 21:02:19 +0100
+
+clamtk (2.07-0ubuntu1) dapper; urgency=low
+
+  * New upstream release:
+    - Fixed a bug which does not accurately display the total
+      number of files scanned (when "Show All Files" is NOT selected).
+    - Fixed .cab detection bug (incorrect regex) which prevented
+      cabinet files from being scanned.
+  * debian/control:
+    - changed mail adress.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Fri, 28 Oct 2005 17:56:05 +0200
+
+clamtk (2.06-0ubuntu2) breezy; urgency=low
+
+  * debian/control:
+    - added libwww-perl to build-depends, thanks Dave Mauroni for the
+      Heads up.
+
+ -- Daniel Holbach <dh@mailempfang.de>  Mon,  5 Sep 2005 17:41:16 +0200
+
+clamtk (2.06-0ubuntu1) breezy; urgency=low
+
+  * New upstream release:
+    - Added maintenance false positive fix (rename file).
+    - Fixed quarantine bug where additional ".VIRUS" was added.
+    - Added 'Directories Scanned' information to log.
+    - Startup now also searches under /usr/local/bin for required
+      binaries in case of manual installation of those binaries.
+      (ie., /usr/bin/ or /usr/local/bin). This should make it easier for
+      porting and for folks who manually install ClamAV.
+  * debian/control:
+    - Bumped Standards-Version to 3.6.2.
+  * debian/rules:
+    - make use of simple-patchsys.mk
+    - add changes for Debian menu entries.
+  * debian/clamtk.{menu,xpm}, debian/README.Debian:
+    - thanks Dave Mauroni.
+  * debian/patches/remove-first_run-from-clamtk.patch:
+    - only needed for Fedora.
+
+ -- Daniel Holbach <dh@mailempfang.de>  Sun, 28 Aug 2005 17:33:46 +0200
+
+clamtk (2.05-0ubuntu1) breezy; urgency=low
+
+  * New upstream release:
+    - Added quarantine maintenance option for more
+      refined control over quarantined files.
+    - Minor bug fix.
+  * debian/control:
+    - changed shlib:Depends to perl:Depends.
+
+ -- Daniel Holbach <dh@mailempfang.de>  Thu, 25 Aug 2005 02:35:10 +0200
+
+clamtk (2.04-0ubuntu0.1) breezy; urgency=low
+
+  * New upstream release:
+    - Support for scanning Cabinet files added.
+  * debian/control:
+    - added unzip, unrar-free | unrar, cabextract to Suggests.
+
+ -- Daniel Holbach <dh@mailempfang.de>  Tue, 26 Jul 2005 17:26:08 +0200
+
+clamtk (2.03-0ubuntu0.1) breezy; urgency=low
+
+  * New upstream release:
+    - Fixed multiple recursion-related bugs.
+    - Fixed freeze-up due to file-name interpretation.
+    - Minor code-cleanup.
+
+ -- Daniel Holbach <dh@mailempfang.de>  Sat,  9 Jul 2005 22:41:44 +0200
+
+clamtk (2.02-0ubuntu0.1) breezy; urgency=low
+
+  * New upstream release.
+
+ -- Daniel Holbach <dh@mailempfang.de>  Mon,  4 Jul 2005 13:25:44 +0200
+
+clamtk (2.01-0ubuntu0.2) breezy; urgency=low
+
+  * updated debian/copyright. 
+
+ -- Daniel Holbach <dh@mailempfang.de>  Mon, 27 Jun 2005 22:02:04 +0200
+
+clamtk (2.01-0ubuntu0.1) breezy; urgency=low
+
+  * New upstream release.
+  * changed debian/copyright.
+
+ -- Daniel Holbach <dh@mailempfang.de>  Mon, 27 Jun 2005 21:46:18 +0200
+
+clamtk (2.00-0ubuntu1) breezy; urgency=low
+
+  * New upstream release. 
+
+ -- Daniel Holbach <dh@mailempfang.de>  Wed, 15 Jun 2005 17:29:23 +0200
+
+clamtk (1.99-0ubuntu1) breezy; urgency=low
+
+  * Initial release.
+
+ -- Daniel Holbach <dh@mailempfang.de>  Wed,  8 Jun 2005 09:54:56 +0200
