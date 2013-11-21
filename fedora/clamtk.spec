@@ -1,18 +1,18 @@
 Name: clamtk
-Version: 5.00
+Version: 5.01
 Release: 1.fc
 Summary: Easy to use graphical user interface for Clam anti-virus
 License: GPL+ or Artistic 2.0
 Group: Applications/System
-URL: http://code.google.com/p/clamtk/
+URL: https://bitbucket.org/dave_theunsub/clamtk/
 
 Source: https://bitbucket.org/dave_theunsub/clamtk/downloads/clamtk-%{version}.tar.gz
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
 Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: perl(LWP::UserAgent), perl(LWP::Protocol::https)
+Requires: perl(Gtk2) >= 1.241
 Requires: clamav >= 0.95, clamav-update, data(clamav)
 Requires: zenity, nautilus-python
 
@@ -26,14 +26,12 @@ It is meant to be lightweight and easy to use.
 %build
 
 %install
-rm -rf %{buildroot}
-
 mkdir -p %{buildroot}/%{perl_vendorlib}/ClamTk
 
 install -p -D -m0755 clamtk %{buildroot}/%{_bindir}/clamtk
-install -p -D -m0755 clamtk.py %{buildroot}/%{_datadir}/nautilus-python/extensions/clamtk.py
-install -p -D -m0644 images/clamtk.png %{buildroot}/%{_datadir}/pixmaps/clamtk.png
-install -p -D -m0644 clamtk.1.gz %{buildroot}/%{_mandir}/man1/clamtk.1.gz
+install -p -D -m0755 clamtk.py %{buildroot}/%{_datadir}/nautilus-python/extensions/%{name}.py
+install -p -D -m0644 images/clamtk.png %{buildroot}/%{_datadir}/pixmaps/%{name}.png
+install -p -D -m0644 clamtk.1.gz %{buildroot}/%{_mandir}/man1/%{name}.1.gz
 install -p -D -m0644 clamtk.desktop %{buildroot}/%{_datadir}/applications/%{name}.desktop
 install -p -m0644 lib/*.pm %{buildroot}/%{perl_vendorlib}/ClamTk/
 
@@ -63,11 +61,7 @@ update-desktop-database &> /dev/null || :
 %postun
 update-desktop-database &> /dev/null || :
 
-%clean
-rm -rf %{buildroot}
-
 %files -f %{name}.lang
-%defattr(-, root, root, -)
 %doc CHANGES DISCLAIMER LICENSE README
 
 # The main executable
@@ -92,6 +86,11 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Thu Nov 21 2013 Dave M. <dave.nerd@gmail.com> - 5.01-1.fc
+- Updated to release 5.01.
+- Requirement for perl-Gtk2 upped to >= 1.241.
+- Minor spec cleanup.
+
 * Sun Nov 10 2013 Dave M. <dave.nerd@gmail.com> - 5.00-1.fc
 - Updated to release 5.00.
 - Added help files.
