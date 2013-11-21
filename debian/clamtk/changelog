@@ -3,7 +3,7 @@ clamtk (5.01-1) unstable; urgency=low
   * Update to 5.01.
   * Updated libgtk2-perl requirements to >= 1.241.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Wed, 20 Nov 2013 09:36:10 -0600
+ -- Dave Mauroni <dave.nerd@gmail.com>  Thu, 21 Nov 2013 16:47:28 -0600
 
 clamtk (5.00-1) unstable; urgency=low
 
