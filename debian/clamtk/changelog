@@ -1,9 +1,22 @@
+clamtk (5.03-1) unstable; urgency=low
+
+  * Update to 5.03.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 18 Jan 2014 07:36:36 -0600
+
+clamtk (5.02-1) unstable; urgency=low
+
+  * Update to 5.02.
+  * Added gnome-icon-theme as dependency (for KDE-based systems).
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 21 Dec 2013 14:31:55 -0600
+
 clamtk (5.01-1) unstable; urgency=low
 
   * Update to 5.01.
   * Updated libgtk2-perl requirements to >= 1.241.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Thu, 21 Nov 2013 16:47:28 -0600
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 22 Nov 2013 19:32:33 -0600
 
 clamtk (5.00-1) unstable; urgency=low
 
@@ -472,8 +485,8 @@ clamtk (2.31-0ubuntu1) feisty; urgency=low
     - 2.30:
       - This release fixes issues when using ClamAV 0.90. (LP: #90790)
     - 2.29:
-      - Will now use {daily,main}.cvd.rpmnew if {daily,main}.cvd files are 
-        not found. This should only impact rpm-based distros, and even then 
+      - Will now use {daily,main}.cvd.rpmnew if {daily,main}.cvd files are
+        not found. This should only impact rpm-based distros, and even then
         should only last until the user runs freshclam to update.
     - 2.28:
       - Added Czech (cs_CZ) language support.

@@ -23,6 +23,7 @@ Depends: ${perl:Depends},
  liblwp-protocol-https-perl,
  zenity,
  python-nautilus,
+ gnome-icon-theme,
 Suggests: cabextract
 Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
