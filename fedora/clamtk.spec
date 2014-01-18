@@ -14,7 +14,7 @@ Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: perl(LWP::UserAgent), perl(LWP::Protocol::https)
 Requires: perl(Gtk2) >= 1.241
 Requires: clamav >= 0.95, clamav-update, data(clamav)
-Requires: zenity, nautilus-python, gnome-icon-theme-legacy
+Requires: zenity, nautilus-python, gnome-icon-theme-legacy, cronie
 
 %description
 ClamTk is a front end for ClamAV anti-virus.
@@ -89,6 +89,7 @@ update-desktop-database &> /dev/null || :
 * Sat Jan 18 2014 Dave M. <dave.nerd@gmail.com> - 5.03-1.fc
 - Updated to release 5.03.
 - Adding gnome-icon-theme-legacy as dependency.
+- Add cronie dependency back.
 
 * Sat Dec 21 2013 Dave M. <dave.nerd@gmail.com> - 5.02-1.fc
 - Updated to release 5.02.
