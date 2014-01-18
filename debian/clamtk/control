@@ -24,6 +24,7 @@ Depends: ${perl:Depends},
  zenity,
  python-nautilus,
  gnome-icon-theme,
+ cron,
 Suggests: cabextract
 Description: graphical front-end for ClamAV
  ClamTk is an easy to use graphical front-end for Clam Antivirus.
