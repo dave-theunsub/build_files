@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.03
+Version: 5.04
 Release: 1.el6
 Summary: Easy to use front-end for ClamAV
 License: GPL+ or Artistic 2.0
@@ -15,9 +15,8 @@ Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: clamav >= 0.95, clamav-db
 Requires: perl(LWP::UserAgent), perl(LWP::Protocol::https)
 Requires: perl(IO::Socket::SSL)
-Requires: zenity
+Requires: zenity, gnome-icon-theme, cronie
 Requires: perl(Gtk2) >= 1.248
-Requires: gnome-icon-theme
 # This doesn't work on CentOS.
 # Requires: nautilus-python
 
@@ -102,9 +101,13 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
-* Sat Jan 18 2014 Dave M. <dave.nerd@gmail.com> - 5.03-1.el6
+* Tue Feb 11 2014 Dave M. <dave.nerd@gmail.com> - 5.04-1.el6
+- Updated to release 5.04.
+
+* Sun Jan 19 2014 Dave M. <dave.nerd@gmail.com> - 5.03-1.el6
 - Updated to release 5.03.
 - Added gnome-icon-theme as dependency.
+- Add cronie dependency back.
 
 * Sat Dec 21 2013 Dave M. <dave.nerd@gmail.com> - 5.02-1.el6
 - Updated to release 5.02.
