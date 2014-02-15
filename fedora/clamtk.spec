@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.03
+Version: 5.04
 Release: 1.fc
 Summary: Easy to use graphical user interface for Clam anti-virus
 License: GPL+ or Artistic 2.0
@@ -86,7 +86,10 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/%{name}.1*
 
 %changelog
-* Sat Jan 18 2014 Dave M. <dave.nerd@gmail.com> - 5.03-1.fc
+* Tue Feb 11 2014 Dave M. <dave.nerd@gmail.com> - 5.04-1.fc
+- Updated to release 5.04.
+
+* Sun Jan 19 2014 Dave M. <dave.nerd@gmail.com> - 5.03-1.fc
 - Updated to release 5.03.
 - Adding gnome-icon-theme-legacy as dependency.
 - Add cronie dependency back.
