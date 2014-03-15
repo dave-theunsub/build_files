@@ -1,5 +1,5 @@
 Name: clamtk-kde
-Version: 0.15
+Version: 0.16
 Release: 1.fc
 Summary: Plugin to allow right-click virus-scanning from within KDE
 License: GPL+ or Artistic 2.0
@@ -26,8 +26,11 @@ from within KDE and utilize the ClamTk front-end for virus scanning.
 %install
 rm -rf %{buildroot}
 %{__install} -D -m0644 clamtk-kde.xpm %{buildroot}%{_datadir}/pixmaps/clamtk-kde.xpm
-%{__install} -D -m0644 clamtk-kde.desktop %{buildroot}%{_datadir}/kde4/services/clamtk-kde.desktop
+%{__install} -D -m0644 clamtk-kde.desktop %{buildroot}%{_kde4_datadir}/kde4/services/clamtk-kde.desktop
 %{__install} -D -m0644 clamtk-kde.1.gz %{buildroot}%{_mandir}/man1/clamtk-kde.1.gz
+
+%check
+# desktop-file-validate %{buildroot}%{_kde4_datadir}/kde4/services/%{name}.desktop
 
 %clean
 rm -rf %{buildroot}
@@ -40,6 +43,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.16-1.fc
+- Upgraded to 0.16.
+
 * Sun Nov 10 2013 Dave M. <dave.nerd@gmail.com> - 0.15-1.fc
 - Upgraded to 0.15.
 - Requirement is now kde-filesystem.
