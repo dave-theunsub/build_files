@@ -1,5 +1,5 @@
 Name: clamtk-kde
-Version: 0.15
+Version: 0.16
 Release: 1.el6
 Summary: Plugin to allow right-click virus-scanning from KDE's Konqueror
 License: GPL+ or Artistic 2.0
@@ -40,6 +40,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.16-1.el6
+- Upgraded to 0.16.
+
 * Sun Nov 10 2013 Dave M. <dave.nerd@gmail.com> - 0.15-1.el6
 - Upgraded to 0.15.
 - Requirement is now kde-filesystem.
