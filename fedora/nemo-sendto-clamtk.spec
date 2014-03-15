@@ -1,5 +1,5 @@
 Name: nemo-sendto-clamtk
-Version: 0.01
+Version: 0.02
 Release: 1.fc
 Summary: Simple extension to add virus scanning to nemo
 License: GPL+ or Artistic 2.0
@@ -34,5 +34,8 @@ install -p -D -m0644 %{name}.nemo_action %{buildroot}/%{_datadir}/nemo/actions/
 %{_datadir}/nemo/actions/%{name}.nemo_action
 
 %changelog
+* Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.02-1.fc
+- Updated to release 0.02.
+
 * Sat Nov 16 2013 Dave M. <dave.nerd@gmail.com> - 0.01-1.fc
 - Initial release 0.01.
