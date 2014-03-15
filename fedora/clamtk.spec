@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.04
+Version: 5.05
 Release: 1.fc
 Summary: Easy to use graphical user interface for Clam anti-virus
 License: GPL+ or Artistic 2.0
@@ -86,6 +86,9 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Fri Mar 14 2014 Dave M. <dave.nerd@gmail.com> - 5.05-1.fc
+- Updated to release 5.05.
+
 * Tue Feb 11 2014 Dave M. <dave.nerd@gmail.com> - 5.04-1.fc
 - Updated to release 5.04.
 
