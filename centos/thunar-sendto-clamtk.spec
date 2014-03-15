@@ -1,5 +1,5 @@
 Name: thunar-sendto-clamtk
-Version: 0.04
+Version: 0.05
 Release: 1.el6
 Summary: Extension for Thunar to send files and directories for virus scanning
 License: GPL+ or Artistic 2.0
@@ -43,6 +43,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/Thunar/sendto/%{name}.desktop
 
 %changelog
+* Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.05-1.el6
+- Update to 0.05.
+
 * Sun Nov 10 2013 Dave M. <dave.nerd@gmail.com> - 0.04-1.el6
 - Update to 0.04.
 - Updated Url and Source.
