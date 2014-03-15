@@ -3,7 +3,7 @@ Upstream-Name: nemo-sendto-clamtk
 Source: https://bitbucket.org/dave_theunsub/nemo-sendto-clamtk
 
 Files: *
-Copyright: 2013 Dave M <dave.nerd @ gmail.com>
+Copyright: 2013-2014 Dave M <dave.nerd @ gmail.com>
 License: Artistic | GPL+
  This program is free software; you can redistribute it and or modify
  it under the terms of the GNU General Public License as published by
@@ -12,7 +12,7 @@ License: Artistic | GPL+
  ---
 
 Files: debian/*
-Copyright: 2013 Dave M <dave.nerd@gmail.com>
+Copyright: 2013-2014 Dave M <dave.nerd@gmail.com>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

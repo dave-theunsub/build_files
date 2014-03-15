@@ -1,3 +1,9 @@
+nemo-sendto-clamtk (0.02-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 15 Mar 2014 10:37:07 -0500
+
 nemo-sendto-clamtk (0.01-1) unstable; urgency=low
 
   * Initial release
