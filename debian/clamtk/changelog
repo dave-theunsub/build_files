@@ -1,9 +1,22 @@
+clamtk (5.05-1) unstable; urgency=low
+
+  * Update to 5.05.
+  * Update watch file (Debian #739850).
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 14 Mar 2014 16:26:34 -0500
+
+clamtk (5.04-1) unstable; urgency=low
+
+  * Update to 5.04.
+
+ -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 11 Feb 2014 19:13:21 -0600
+
 clamtk (5.03-1) unstable; urgency=low
 
   * Update to 5.03.
   * Added dependency cron back.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 18 Jan 2014 16:09:17 -0600
+ -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 19 Jan 2014 05:56:51 -0600
 
 clamtk (5.02-1) unstable; urgency=low
 
