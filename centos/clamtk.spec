@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.05
+Version: 5.06
 Release: 1.el6
 Summary: Easy to use front-end for ClamAV
 License: GPL+ or Artistic 2.0
@@ -15,7 +15,7 @@ Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: clamav >= 0.95, clamav-db
 Requires: perl(LWP::UserAgent), perl(LWP::Protocol::https)
 Requires: perl(IO::Socket::SSL)
-Requires: zenity, gnome-icon-theme, cronie
+Requires: gnome-icon-theme, cronie
 Requires: perl(Gtk2) >= 1.248
 # This doesn't work on CentOS.
 # Requires: nautilus-python
@@ -63,7 +63,7 @@ desktop-file-install --vendor misc				\
 	--add-category="GNOME"				\
 	--add-category="Utility"				\
 	%{buildroot}/%{_datadir}/applications/*.desktop
-	
+
 %find_lang %{name} --with-gnome
 
 %post
@@ -101,6 +101,10 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat May 3 2014 Dave M. <dave.nerd@gmail.com> - 5.06-1.el6
+- Updated to release 5.06.
+- Remove zenity from dependencies.
+
 * Fri Mar 14 2014 Dave M. <dave.nerd@gmail.com> - 5.05-1.el6
 - Updated to release 5.05.
 
@@ -338,7 +342,7 @@ rm -rf %{buildroot}
 
 * Sat Sep 08 2007 Dave M. <dave.nerd@gmail.com> - 3.02-1.centos
 - Updated to release 3.02.
-- Added Galician language. 
+- Added Galician language.
 
 * Thu Aug 30 2007 Dave M. <dave.nerd@gmail.com> - 3.01-1.centos
 - Updated to release 3.01.
