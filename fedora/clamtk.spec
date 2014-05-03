@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.05
+Version: 5.06
 Release: 1.fc
 Summary: Easy to use graphical user interface for Clam anti-virus
 License: GPL+ or Artistic 2.0
@@ -14,7 +14,7 @@ Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: perl(LWP::UserAgent), perl(LWP::Protocol::https)
 Requires: perl(Gtk2) >= 1.241
 Requires: clamav >= 0.95, clamav-update, data(clamav)
-Requires: zenity, nautilus-python, gnome-icon-theme-legacy, cronie
+Requires: nautilus-python, gnome-icon-theme-legacy, cronie
 
 %description
 ClamTk is a front end for ClamAV anti-virus.
@@ -86,6 +86,10 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat May 3 2014 Dave M. <dave.nerd@gmail.com> - 5.06-1.fc
+- Updated to release 5.06.
+- Remove zenity dependency from spec.
+
 * Fri Mar 14 2014 Dave M. <dave.nerd@gmail.com> - 5.05-1.fc
 - Updated to release 5.05.
 
