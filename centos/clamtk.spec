@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.06
+Version: 5.08
 Release: 1.el6
 Summary: Easy to use front-end for ClamAV
 License: GPL+ or Artistic 2.0
@@ -60,7 +60,7 @@ desktop-file-install --vendor misc				\
 	--dir %{buildroot}/%{_datadir}/applications		\
 	--delete-original				 	\
 	--add-category="GTK"					\
-	--add-category="GNOME"				\
+	--add-category="GNOME"				        \
 	--add-category="Utility"				\
 	%{buildroot}/%{_datadir}/applications/*.desktop
 
@@ -101,6 +101,12 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sun Aug 24 2014 Dave M. <dave.nerd@gmail.com> - 5.08-1.el6
+- Updated to release 5.08.
+
+* Thu Jun 12 2014 Dave M. <dave.nerd@gmail.com> - 5.07-1.el6
+- Updated to release 5.07.
+
 * Sat May 3 2014 Dave M. <dave.nerd@gmail.com> - 5.06-1.el6
 - Updated to release 5.06.
 - Remove zenity from dependencies.
