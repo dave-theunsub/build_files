@@ -1,74 +1,123 @@
+clamtk (5.13-1) unstable; urgency=low
+
+  * Update to 5.13.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 3 Jan 2015 07:17:27 -0600
+
+clamtk (5.12-1) unstable; urgency=low
+
+  * Update to 5.12.
+
+ -- Dave M <dave.nerd@gmail.com>  Wed, 24 Dec 2014 12:15:37 -0600
+
+clamtk (5.11-1) unstable; urgency=low
+
+  * Update to 5.11.
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 31 Oct 2014 09:06:28 -0500
+
+clamtk (5.10-1) unstable; urgency=low
+
+  * Update to 5.10.
+
+ -- Dave M <dave.nerd@gmail.com>  Thu, 02 Oct 2014 16:51:19 -0500
+
+clamtk (5.09-1) unstable; urgency=low
+
+  * Update to 5.09.
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 29 Aug 2014 15:59:06 -0500
+
+clamtk (5.08-1) unstable; urgency=low
+
+  * Update to 5.08.
+
+ -- Dave M <dave.nerd@gmail.com>  Sun, 24 Aug 2014 05:27:30 -0500
+
+clamtk (5.07-1) unstable; urgency=low
+
+  * Update to 5.07.
+
+ -- Dave M <dave.nerd@gmail.com>  Thu, 12 Jun 2014 09:55:38 -0500
+
+clamtk (5.06-1) unstable; urgency=low
+
+  * Update to 5.06.
+  * Remove zenity dependency from control file.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 3 May 2014 06:37:30 -0500
+
 clamtk (5.05-1) unstable; urgency=low
 
   * Update to 5.05.
   * Update watch file (Debian #739850).
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 14 Mar 2014 16:26:34 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 14 Mar 2014 16:26:34 -0500
 
 clamtk (5.04-1) unstable; urgency=low
 
   * Update to 5.04.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 11 Feb 2014 19:13:21 -0600
+ -- Dave M <dave.nerd@gmail.com>  Tue, 11 Feb 2014 19:13:21 -0600
 
 clamtk (5.03-1) unstable; urgency=low
 
   * Update to 5.03.
   * Added dependency cron back.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 19 Jan 2014 05:56:51 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sun, 19 Jan 2014 05:56:51 -0600
 
 clamtk (5.02-1) unstable; urgency=low
 
   * Update to 5.02.
   * Added gnome-icon-theme as dependency (for KDE-based systems).
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 21 Dec 2013 14:31:55 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sat, 21 Dec 2013 14:31:55 -0600
 
 clamtk (5.01-1) unstable; urgency=low
 
   * Update to 5.01.
   * Updated libgtk2-perl requirements to >= 1.241.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 22 Nov 2013 19:32:33 -0600
+ -- Dave M <dave.nerd@gmail.com>  Fri, 22 Nov 2013 19:32:33 -0600
 
 clamtk (5.00-1) unstable; urgency=low
 
   * Update to 5.00.
   * Updated project URL.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 09 Nov 2013 09:17:23 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sat, 09 Nov 2013 09:17:23 -0600
 
 clamtk (4.45-1) unstable; urgency=low
 
   * Update to 4.45.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 24 May 2013 07:33:09 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 24 May 2013 07:33:09 -0500
 
 clamtk (4.44-1) unstable; urgency=low
 
   * Update to 4.44.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 22 Dec 2012 09:40:00 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sat, 22 Dec 2012 09:40:00 -0600
 
 clamtk (4.43-1) unstable; urgency=low
 
   * Update to 4.43.
   * Changed/added lines in control file and .desktop.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 2 Dec 2012 14:36:25 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sun, 2 Dec 2012 14:36:25 -0600
 
 clamtk (4.42-1) unstable; urgency=low
 
   * Update to 4.42.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Wed, 12 Sep 2012 06:55:08 -0500
+ -- Dave M <dave.nerd@gmail.com>  Wed, 12 Sep 2012 06:55:08 -0500
 
 clamtk (4.41-1) unstable; urgency=low
 
   * Update to 4.41.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 01 Jun 2012 18:36:27 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 01 Jun 2012 18:36:27 -0500
 
 clamtk (4.40-1) unstable; urgency=low
 
@@ -76,75 +125,75 @@ clamtk (4.40-1) unstable; urgency=low
   * Images located under images/ now.
   * Removed dependency libfile-find-rule-perl.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 25 May 2012 09:06:12 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 25 May 2012 09:06:12 -0500
 
 clamtk (4.39-1) unstable; urgency=low
 
   * Update to 4.39.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 20 Apr 2012 20:15:25 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 20 Apr 2012 20:15:25 -0500
 
 clamtk (4.38-1) unstable; urgency=low
 
   * Update to 4.38.
   * Installing clamtk.png now as well as clamtk.xpm.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 24 Mar 2012 12:12:16 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 24 Mar 2012 12:12:16 -0500
 
 clamtk (4.37-1) unstable; urgency=low
 
   * Update to 4.37.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 3 Feb 2012 17:24:59 -0600
+ -- Dave M <dave.nerd@gmail.com>  Fri, 3 Feb 2012 17:24:59 -0600
 
 clamtk (4.36-1) unstable; urgency=low
 
   * Update to 4.36.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 15 Oct 2011 07:19:53 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 15 Oct 2011 07:19:53 -0500
 
 clamtk (4.35-1) unstable; urgency=low
 
   * Update to 4.35.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Thu, 08 Sep 2011 13:11:30 -0500
+ -- Dave M <dave.nerd@gmail.com>  Thu, 08 Sep 2011 13:11:30 -0500
 
 clamtk (4.34-1) unstable; urgency=low
 
   * Update to 4.34.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 12 Aug 2011 18:15:14 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 12 Aug 2011 18:15:14 -0500
 
 clamtk (4.33-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 11 Jun 2011 07:34:33 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 11 Jun 2011 07:34:33 -0500
 
 clamtk (4.32-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 24 Apr 2011 20:29:27 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sun, 24 Apr 2011 20:29:27 -0500
 
 clamtk (4.31-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 08 Jan 2011 17:50:07 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sat, 08 Jan 2011 17:50:07 -0600
 
 clamtk (4.30-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 06 Nov 2010 19:18:28 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 06 Nov 2010 19:18:28 -0500
 
 clamtk (4.29-1) unstable; urgency=low
 
   * New upstream release.
   * ClamAV dependency is now >= 0.95.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 10 Sep 2010 18:33:06 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 10 Sep 2010 18:33:06 -0500
 
 clamtk (4.28-1) unstable; urgency=low
 
@@ -152,62 +201,62 @@ clamtk (4.28-1) unstable; urgency=low
   * Removed hal as dependency (deprecated).
   * Added udev as dependency.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 17 Aug 2010 07:23:49 -0500
+ -- Dave M <dave.nerd@gmail.com>  Tue, 17 Aug 2010 07:23:49 -0500
 
 clamtk (4.27-1) unstable; urgency=low
 
   * New upstream release.
   * Added hal as dependency.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 9 Jul 2010 20:02:15 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 9 Jul 2010 20:02:15 -0500
 
 clamtk (4.26-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 30 Apr 2010 18:51:28 -0500
+ -- Dave M <dave.nerd@gmail.com>  Fri, 30 Apr 2010 18:51:28 -0500
 
 clamtk (4.25-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 5 Mar 2010 17:11:13 -0600
+ -- Dave M <dave.nerd@gmail.com>  Fri, 5 Mar 2010 17:11:13 -0600
 
 clamtk (4.24-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 27 Feb 2010 19:04:31 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sat, 27 Feb 2010 19:04:31 -0600
 
 clamtk (4.23-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 19 Jan 2010 17:03:08 -0600
+ -- Dave M <dave.nerd@gmail.com>  Tue, 19 Jan 2010 17:03:08 -0600
 
 clamtk (4.22-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 25 Dec 2009 12:40:01 -0600
+ -- Dave M <dave.nerd@gmail.com>  Fri, 25 Dec 2009 12:40:01 -0600
 
 clamtk (4.21-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 4 Dec 2009 20:40:16 -0600
+ -- Dave M <dave.nerd@gmail.com>  Fri, 4 Dec 2009 20:40:16 -0600
 
 clamtk (4.20-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 31 Oct 2009 14:15:56 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 31 Oct 2009 14:15:56 -0500
 
 clamtk (4.19-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 6 Oct 2009 13:12:25 -0500
+ -- Dave M <dave.nerd@gmail.com>  Tue, 6 Oct 2009 13:12:25 -0500
 
 clamtk (4.18-1) unstable; urgency=low
 
@@ -216,31 +265,31 @@ clamtk (4.18-1) unstable; urgency=low
   * Removed dependency libconfig-tiny-perl.
   * Added dependency cron.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 19 Sep 2009 08:56:01 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 19 Sep 2009 08:56:01 -0500
 
 clamtk (4.17-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 8 Aug 2009 08:14:30 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 8 Aug 2009 08:14:30 -0500
 
 clamtk (4.16-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 11 Jul 2009 07:31:33 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 11 Jul 2009 07:31:33 -0500
 
 clamtk (4.15-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 20 Jun 2009 10:17:45 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 20 Jun 2009 10:17:45 -0500
 
 clamtk (4.14-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 13 Jun 2009 09:04:56 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 13 Jun 2009 09:04:56 -0500
 
 clamtk (4.13-1) experimental; urgency=low
 
@@ -251,7 +300,7 @@ clamtk (4.13-1) experimental; urgency=low
   * Menu file change to Applications/System/Security.
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 24 May 2009 18:15:17 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sun, 24 May 2009 18:15:17 -0500
 
 clamtk (4.12-1) experimental; urgency=low
 
@@ -259,7 +308,7 @@ clamtk (4.12-1) experimental; urgency=low
   * Added dependency libnet-dns-perl.
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 25 Apr 2009 08:48:01 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 25 Apr 2009 08:48:01 -0500
 
 clamtk (4.11-1) experimental; urgency=low
 
@@ -267,44 +316,44 @@ clamtk (4.11-1) experimental; urgency=low
     should be clamtk not clamtk-kde.
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 22 Mar 2009 07:42:54 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sun, 22 Mar 2009 07:42:54 -0500
 
 clamtk (4.10-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Tue, 17 Feb 2009 18:14:39 -0600
+ -- Dave M <dave.nerd@gmail.com>  Tue, 17 Feb 2009 18:14:39 -0600
 
 clamtk (4.09-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Fri, 13 Feb 2009 18:19:45 -0600
+ -- Dave M <dave.nerd@gmail.com>  Fri, 13 Feb 2009 18:19:45 -0600
 
 clamtk (4.08-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 27 Dec 2008 20:16:04 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sat, 27 Dec 2008 20:16:04 -0600
 
 clamtk (4.07-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sat, 20 Dec 2008 07:03:47 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sat, 20 Dec 2008 07:03:47 -0600
 
 clamtk (4.06-1) experimental; urgency=low
 
   * New upstream release.
   * Added bind9-utils dependency.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Sun, 7 Dec 2008 07:51:10 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sun, 7 Dec 2008 07:51:10 -0600
 
 clamtk (4.05-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Dave Mauroni <dave.nerd@gmail.com>  Thu, 27 Nov 2008 17:55:57 -0600
+ -- Dave M <dave.nerd@gmail.com>  Thu, 27 Nov 2008 17:55:57 -0600
 
 clamtk (4.04-2) experimental; urgency=low
 
@@ -766,7 +815,7 @@ clamtk (2.07-0ubuntu1) dapper; urgency=low
 clamtk (2.06-0ubuntu2) breezy; urgency=low
 
   * debian/control:
-    - added libwww-perl to build-depends, thanks Dave Mauroni for the
+    - added libwww-perl to build-depends, thanks Dave M for the
       Heads up.
 
  -- Daniel Holbach <dh@mailempfang.de>  Mon,  5 Sep 2005 17:41:16 +0200
@@ -787,7 +836,7 @@ clamtk (2.06-0ubuntu1) breezy; urgency=low
     - make use of simple-patchsys.mk
     - add changes for Debian menu entries.
   * debian/clamtk.{menu,xpm}, debian/README.Debian:
-    - thanks Dave Mauroni.
+    - thanks Dave M.
   * debian/patches/remove-first_run-from-clamtk.patch:
     - only needed for Fedora.
 
