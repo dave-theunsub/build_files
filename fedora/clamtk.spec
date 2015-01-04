@@ -1,7 +1,7 @@
 Name: clamtk
-Version: 5.10
+Version: 5.13
 Release: 1.fc
-Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV) 
+Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
 Group: Applications/System
 URL: https://bitbucket.org/dave_theunsub/clamtk/
@@ -86,6 +86,15 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat Jan 3 2015 Dave M. <dave.nerd@gmail.com> - 5.13-1.fc
+- Updated to release 5.13.
+
+* Wed Dec 24 2014 Dave M. <dave.nerd@gmail.com> - 5.12-1.fc
+- Updated to release 5.12.
+
+* Fri Oct 31 2014 Dave M. <dave.nerd@gmail.com> - 5.11-1.fc
+- Updated to release 5.11.
+
 * Thu Oct 2 2014 Dave M. <dave.nerd@gmail.com> - 5.10-1.fc
 - Updated to release 5.10.
 
