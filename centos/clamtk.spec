@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.08
+Version: 5.19
 Release: 1.el6
 Summary: Easy to use front-end for ClamAV
 License: GPL+ or Artistic 2.0
@@ -101,6 +101,39 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Fri Jun 26 2015 Dave M. <dave.nerd@gmail.com> - 5.19-1.el6
+- Updated to release 5.19.
+
+* Sun May 10 2015 Dave M. <dave.nerd@gmail.com> - 5.18-1.el6
+- Updated to release 5.18.
+
+* Sat Apr 11 2015 Dave M. <dave.nerd@gmail.com> - 5.17-1.el6
+- Updated to release 5.17.
+
+* Sat Apr 11 2015 Dave M. <dave.nerd@gmail.com> - 5.16-1.el6
+- Updated to release 5.16.
+
+* Thu Mar 5 2015 Dave M. <dave.nerd@gmail.com> - 5.15-1.el6
+- Updated to release 5.15.
+
+* Fri Feb 13 2015 Dave M. <dave.nerd@gmail.com> - 5.14-1.el6
+- Updated to release 5.14.
+
+* Sat Jan 3 2015 Dave M. <dave.nerd@gmail.com> - 5.13-1.el6
+- Updated to release 5.13.
+
+* Wed Dec 24 2014 Dave M. <dave.nerd@gmail.com> - 5.12-1.el6
+- Updated to release 5.12.
+
+* Fri Oct 31 2014 Dave M. <dave.nerd@gmail.com> - 5.11-1.el6
+- Updated to release 5.11.
+
+* Thu Oct 2 2014 Dave M. <dave.nerd@gmail.com> - 5.10-1.el6
+- Updated to release 5.10.
+
+* Fri Aug 29 2014 Dave M. <dave.nerd@gmail.com> - 5.09-1.el6
+- Updated to release 5.09.
+
 * Sun Aug 24 2014 Dave M. <dave.nerd@gmail.com> - 5.08-1.el6
 - Updated to release 5.08.
 
