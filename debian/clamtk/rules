@@ -8,7 +8,6 @@ LOCALES_DIR = $(CURDIR)/debian/clamtk/usr/share/locale
 HELP_DIR	= $(CURDIR)/debian/clamtk/usr/share/help
 BIN_DIR		= $(CURDIR)/debian/clamtk/usr/bin
 IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/pixmaps
-CONTEXT_DIR = $(CURDIR)/debian/clamtk/usr/share/nautilus-python/extensions
 LIB_DIR		= $(CURDIR)/debian/clamtk/usr/share/perl5/ClamTk
 
 override_dh_auto_install:
@@ -21,9 +20,6 @@ override_dh_auto_install:
 
 	mkdir -p $(BIN_DIR)
 	install -m 755 $(CURDIR)/clamtk $(BIN_DIR)/clamtk
-
-	mkdir -p $(CONTEXT_DIR)
-	install -m 755 $(CURDIR)/clamtk.py $(CONTEXT_DIR)/clamtk.py
 
 	mkdir -p $(HELP_DIR)
 	cp -ap $(CURDIR)/help/* $(HELP_DIR)/
@@ -38,7 +34,6 @@ override_dh_auto_install:
 	dh_installdocs README
 	dh_installchangelogs CHANGES
 	dh_installman clamtk.1.gz
-	dh_pysupport
 	dh $@ --after dh_installdocs
 
 %:
