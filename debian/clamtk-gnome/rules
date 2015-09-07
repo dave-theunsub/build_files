@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+PYTHON_DIR = $(CURDIR)/debian/clamtk-gnome/usr/share/nautilus-python/extensions
+IMAGES_DIR = $(CURDIR)/debian/clamtk-gnome/usr/share/pixmaps
+
+override_dh_auto_install:
+	mkdir -p $(PYTHON_DIR)
+	# install -m 755 $(CURDIR)/clamtk-gnome.py $(PYTHON_DIR)/clamtk-gnome.py
+	cp $(CURDIR)/clamtk-gnome.py $(PYTHON_DIR)/
+
+	mkdir -p $(IMAGES_DIR)
+	# install -m 644 $(CURDIR)/images/* $(IMAGES_DIR)
+	cp $(CURDIR)/images/* $(IMAGES_DIR)/
+
+	dh_installdocs README DISCLAIMER
+	dh_installchangelogs CHANGES
+	dh_installman	clamtk-gnome.1.gz
+	dh_python2
+
+%:
+	dh $@
