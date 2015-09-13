@@ -2,8 +2,9 @@ clamtk (5.20-1) unstable; urgency=low
 
   * Update to 5.20.
   * Remove nautilus dependency.
+  * Update homepage URL in control file.
 
- -- Dave M <dave.nerd@gmail.com>  Sun, 06 Sep 2015 07:02:16 -0500
+ -- Dave M <dave.nerd@gmail.com>  Sat, 12 Sep 2015 04:00:32 -0500
 
 clamtk (5.19-1) unstable; urgency=low
 

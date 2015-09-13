@@ -4,7 +4,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-LOCALES_DIR = $(CURDIR)/debian/clamtk/usr/share/locale
+LOCALES_DIR 	= $(CURDIR)/debian/clamtk/usr/share/locale
 HELP_DIR	= $(CURDIR)/debian/clamtk/usr/share/help
 BIN_DIR		= $(CURDIR)/debian/clamtk/usr/bin
 IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/pixmaps
