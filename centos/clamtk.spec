@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.19
+Version: 5.20
 Release: 1.el6
 Summary: Easy to use front-end for ClamAV
 License: GPL+ or Artistic 2.0
@@ -17,8 +17,6 @@ Requires: perl(LWP::UserAgent), perl(LWP::Protocol::https)
 Requires: perl(IO::Socket::SSL)
 Requires: gnome-icon-theme, cronie
 Requires: perl(Gtk2) >= 1.248
-# This doesn't work on CentOS.
-# Requires: nautilus-python
 
 %description
 ClamTk is a front-end for ClamAV anti virus.
@@ -32,8 +30,6 @@ It is meant to be lightweight and easy to use.
 %install
 rm -rf %{buildroot}/
 install -p -D -m0755 clamtk %{buildroot}/%{_bindir}/clamtk
-# This doesn't work on CentOS.
-# install -p -D -m0755 clamtk.py %{buildroot}/%{_datadir}/nautilus-python/extensions/clamtk.py
 install -p -D -m0644 images/clamtk.png %{buildroot}/%{_datadir}/pixmaps/clamtk.png
 install -p -D -m0644 clamtk.1.gz %{buildroot}/%{_mandir}/man1/clamtk.1.gz
 install -p -D -m0644 clamtk.desktop %{buildroot}/%{_datadir}/applications/clamtk.desktop
@@ -81,10 +77,6 @@ rm -rf %{buildroot}
 # The main executable
 %{_bindir}/%{name}
 
-# This doesn't work on CentOS.
-# Nautilus python extension executable
-# %{_datadir}/nautilus-python/extensions/%{name}.py*
-
 # Main Perl libraries
 %{perl_vendorlib}/ClamTk
 
@@ -101,7 +93,11 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
-* Fri Jun 26 2015 Dave M. <dave.nerd@gmail.com> - 5.19-1.el6
+* Sun Sep 6 2015 Dave M. <dave.nerd@gmail.com> - 5.20-1.el6
+- Updated to release 5.20.
+- Remove nautilus dependency.
+
+* Sat Jun 27 2015 Dave M. <dave.nerd@gmail.com> - 5.19-1.el6
 - Updated to release 5.19.
 
 * Sun May 10 2015 Dave M. <dave.nerd@gmail.com> - 5.18-1.el6
