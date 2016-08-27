@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.20
+Version: 5.21
 Release: 1.el6
 Summary: Easy to use front-end for ClamAV
 License: GPL+ or Artistic 2.0
@@ -93,6 +93,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sun Aug 21 2016 Dave M. <dave.nerd@gmail.com> - 5.21-1.el6
+- Updated to release 5.21.
+
 * Sun Sep 6 2015 Dave M. <dave.nerd@gmail.com> - 5.20-1.el6
 - Updated to release 5.20.
 - Remove nautilus dependency.
