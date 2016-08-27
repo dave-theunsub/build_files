@@ -1,0 +1,29 @@
+Source: clamtk
+Section: utils
+Priority: optional
+Maintainer: Dave M <dave.nerd@gmail.com>
+Build-Depends: debhelper (>= 9~)
+Build-Depends-Indep: liblocale-gettext-perl, gettext
+Standards-Version: 3.9.6
+Homepage: https://github.com/dave-theunsub/clamtk/
+Vcs-Git: git://git@bitbucket.org:dave_theunsub/clamtk-legacy.git
+Vcs-Browser: https://bitbucket.org/dave_theunsub/clamtk.git
+
+Package: clamtk
+Architecture: all
+Depends:
+ ${perl:Depends},
+ clamav (>= 0.95),
+ clamav-freshclam (>= 0.95) | clamav-data,
+ libgtk2-perl (>= 2:1.223),
+ libtext-csv-perl,
+ libwww-perl,
+ libjson-perl,
+ liblocale-gettext-perl,
+ liblwp-protocol-https-perl,
+ gnome-icon-theme,
+ cron,
+Suggests: cabextract
+Description: graphical front-end for ClamAV
+ ClamTk is an easy to use graphical front-end for Clam Antivirus.
+ This is a legacy version intended for Ubuntu 12.xx.

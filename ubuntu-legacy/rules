@@ -1,0 +1,40 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+LOCALES_DIR 	= $(CURDIR)/debian/clamtk/usr/share/locale
+HELP_DIR	= $(CURDIR)/debian/clamtk/usr/share/help
+BIN_DIR		= $(CURDIR)/debian/clamtk/usr/bin
+IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/pixmaps
+LIB_DIR		= $(CURDIR)/debian/clamtk/usr/share/perl5/ClamTk
+
+override_dh_auto_install:
+	@echo Installing locales now...
+	for locale in $(shell ls $(CURDIR)/po/*.mo | sed 's@.*/\(.*\)\.mo@\1@g'); \
+		do mkdir -p $(LOCALES_DIR)/$$locale/LC_MESSAGES/ && \
+		install -m 644 $(CURDIR)/po/$$locale.mo $(LOCALES_DIR)/$$locale/LC_MESSAGES/clamtk.mo; \
+	done
+	-rm -rf $(LOCALES_DIR)/clamtk/
+
+	mkdir -p $(BIN_DIR)
+	install -m 755 $(CURDIR)/clamtk $(BIN_DIR)/clamtk
+
+	mkdir -p $(HELP_DIR)
+	cp -ap $(CURDIR)/help/* $(HELP_DIR)/
+
+	mkdir -p $(IMAGES_DIR)
+	install -m 644 $(CURDIR)/images/clamtk.* $(IMAGES_DIR)
+
+	mkdir -p $(LIB_DIR)
+	cp $(CURDIR)/lib/* $(LIB_DIR)
+
+	dh $@ --after dh_auto_install --before dh_installdocs
+	dh_installdocs README
+	dh_installchangelogs CHANGES
+	dh_installman clamtk.1.gz
+	dh $@ --after dh_installdocs
+
+%:
+	dh $@

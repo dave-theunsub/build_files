@@ -1,0 +1,5 @@
+clamtk					usr/bin/
+clamtk.desktop			usr/share/applications/
+images/*				usr/share/pixmaps/
+lib/*					usr/share/perl5/ClamTk/
+help/*					usr/share/help
