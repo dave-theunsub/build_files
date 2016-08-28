@@ -1,10 +1,10 @@
 Name: clamtk-kde
-Version: 0.16
+Version: 0.17
 Release: 1.el6
-Summary: Plugin to allow right-click virus-scanning from KDE's Konqueror
+Summary: Plug-in to allow right-click virus-scanning within KDE
 License: GPL+ or Artistic 2.0
 Group: System Environment/Shells
-URL: http://code.google.com/p/clamtk/
+URL: http://dave-theunsub.github.io/clamtk/
 
 Source: https://bitbucket.org/dave_theunsub/clamtk-kde/downloads/clamtk-kde-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
@@ -14,9 +14,9 @@ BuildRequires: desktop-file-utils
 Requires: clamtk >= 4.00, kde-filesystem
 
 %description
-ClamTk is a frontend for ClamAV antivirus.
-This plugin allows users to right-click on files and directories
-from within KDE and utilize the ClamTk frontend for virus scanning.
+ClamTk is a front-end for ClamAV anti-virus.
+This plug-in allows users to right-click on files and directories
+from within KDE and utilize the ClamTk front-end for virus scanning.
 
 %prep
 %setup -q
@@ -40,6 +40,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sun Aug 28 2016 Dave M. <dave.nerd@gmail.com> - 0.17-1.el6
+- Upgraded to 0.17.
+
 * Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.16-1.el6
 - Upgraded to 0.16.
 
