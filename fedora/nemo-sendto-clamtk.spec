@@ -4,17 +4,17 @@ Release: 1.fc
 Summary: Simple extension to add virus scanning to nemo
 License: GPL+ or Artistic 2.0
 Group: Applications/System
-URL: http://code.google.com/p/clamtk/
+URL: https://dave-theunsub.github.io/clamtk/
 
 Source: https://bitbucket.org/dave_theunsub/nemo-sendto-clamtk/downloads/nemo-sendto-clamtk-%{version}.tar.gz
 
 BuildArch: noarch
 BuildRequires: desktop-file-utils
-Requires: nemo, clamtk >= 4.00
+Requires: nemo, clamtk >= 5.00
 
 %description
-This is a simple extension to add virus scanning to Thunar
-in the send-to menu.
+This is a simple extension to add context menu
+virus scanning in the Nemo file manager.
 
 ClamTk is a front-end for ClamAV Anti Virus.
 It is meant to be lightweight and easy to use.
@@ -34,6 +34,10 @@ install -p -D -m0644 %{name}.nemo_action %{buildroot}/%{_datadir}/nemo/actions/
 %{_datadir}/nemo/actions/%{name}.nemo_action
 
 %changelog
+* Sat 3 Sep 2016 Dave M. <dave.nerd@gmail.com> - 0.03-1.fc
+- Updated to release 0.03.
+- Updated description and links.
+
 * Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.02-1.fc
 - Updated to release 0.02.
 
