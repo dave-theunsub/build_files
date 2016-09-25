@@ -1,5 +1,5 @@
 Name: xkcd-generate
-Version: 0.0.6
+Version: 0.0.7
 Release: 1.el7
 Summary: Generate pass phrases for authentication
 License: GPL+ or Artistic 2.0
@@ -12,7 +12,7 @@ BuildArch: noarch
 BuildRequires: desktop-file-utils
 Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: perl(Gtk3)
-Requires: perl-List-MoreUtils, perl-Getopt-Long, perl-Math-Random-MT-Auto
+Requires: perl-List-MoreUtils, perl-Getopt-Long
 
 %description
 Easily generate pass phrases for authentication using freely
@@ -74,5 +74,9 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/*
 
 %changelog
+* Sun Sep 25 2016 Dave M <dave.nerd@gmail.com> - 0.0.7-1.el7
+- New version.
+- Remove dependencies for perl-Math\*
+
 * Fri Sep 23 2016 Dave M <dave.nerd@gmail.com> - 0.0.6-1.el7
 - Initial release for CentOS 7.
