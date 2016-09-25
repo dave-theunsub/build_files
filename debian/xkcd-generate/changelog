@@ -1,3 +1,11 @@
+xkcd-generate (0.0.7-1) unstable; urgency=low
+
+  * New version released.
+  * Removed a patch.
+  * Fix copyright date in copyright.
+
+ -- Dave M <dave.nerd@gmail.com>  Sun, 25 Sep 2016 11:09:23 -0500
+
 xkcd-generate (0.0.6-1) unstable; urgency=low
 
   * Initial release for Debian and Ubuntu
