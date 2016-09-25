@@ -1,0 +1,6 @@
+xkcd-generate (0.0.6-1) unstable; urgency=low
+
+  * Initial release for Debian and Ubuntu
+  * Install Perl binary without .pl to prevent whining
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 23 Sep 2016 13:16:07 -0500

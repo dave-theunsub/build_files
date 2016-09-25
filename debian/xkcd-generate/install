@@ -1,0 +1,4 @@
+xkcd-generate.pl                        usr/bin/
+xkcd-generate.desktop			usr/share/applications/
+images/*				usr/share/pixmaps/
+sources/*                               usr/share/doc/xkcd-generate/

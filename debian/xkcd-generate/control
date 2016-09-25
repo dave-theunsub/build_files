@@ -1,0 +1,19 @@
+Source: xkcd-generate
+Section: utils
+Priority: optional
+Maintainer: Dave M <dave.nerd@gmail.com>
+Build-Depends: debhelper (>= 9~), quilt
+Standards-Version: 3.9.6
+Homepage: https://github.com/dave-theunsub/xkcd-generate
+Vcs-Git: git://bitbucket.org:dave_theunsub/xkcd-generate.git
+Vcs-Browser: https://bitbucket.org/dave_theunsub/xkcd-generate.git
+
+Package: xkcd-generate
+Architecture: all
+Depends:
+ ${perl:Depends},
+ libgtk3-perl,
+ liblist-moreutils-perl,
+ libgetopt-long-descriptive-perl,
+Description: Create pass phrases for authentication
+ xkcd-generate creates pass phrases which can be used for authentication

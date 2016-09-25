@@ -1,0 +1,30 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+# SOURCES_DIR	= $(CURDIR)/debian/xkcd-generate/usr/share/doc/xkcd-generate
+BIN_DIR		= $(CURDIR)/debian/xkcd-generate/usr/bin
+IMAGES_DIR	= $(CURDIR)/debian/xkcd-generate/usr/share/pixmaps
+LIB_DIR		= $(CURDIR)/debian/xkcd-generate/usr/share/perl5/xkcd-generate
+
+override_dh_auto_install:
+
+	mkdir -p $(BIN_DIR)
+	install -m 755 $(CURDIR)/xkcd-generate.pl $(BIN_DIR)/xkcd-generate.pl
+
+	mkdir -p $(LIB_DIR)
+	cp -ap $(CURDIR)/sources/* $(LIB_DIR)/
+
+	mkdir -p $(IMAGES_DIR)
+	install -m 644 $(CURDIR)/images/xkcd-*.png $(IMAGES_DIR)
+
+	dh $@ --after dh_auto_install --before dh_installdocs
+	# dh_installdocs LICENSE 
+	dh_installchangelogs CHANGES
+	dh_installman xkcd-generate.pl.1.gz
+	dh $@ --after dh_installdocs
+
+%:
+	dh $@
