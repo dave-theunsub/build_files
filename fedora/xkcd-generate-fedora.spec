@@ -12,7 +12,7 @@ BuildArch: noarch
 BuildRequires: desktop-file-utils
 Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: perl(Gtk3)
-Requires: perl-List-MoreUtils, perl-Getopt-Long
+Requires: perl-List-MoreUtils, perl-Getopt-Long, perl-Math-Random-MT-Auto
 
 %description
 Easily generate pass phrases for authentication using freely
