@@ -12,7 +12,7 @@ BuildArch: noarch
 
 BuildRequires: desktop-file-utils
 Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
-Requires: Thunar, srm
+Requires: Thunar, coreutils
 Requires: perl-Gtk3, perl-Locale-gettext, perl-libwww-perl
 
 %description
