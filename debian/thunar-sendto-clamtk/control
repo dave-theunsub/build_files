@@ -1,0 +1,13 @@
+Source: thunar-sendto-clamtk
+Section: xfce
+Priority: optional
+Maintainer: Dave Mauroni <dave.nerd@gmail.com>
+Build-Depends: debhelper (>= 9~)
+Standards-Version: 3.9.5
+Homepage: http://code.google.com/p/clamtk/
+
+Package: thunar-sendto-clamtk
+Architecture: all
+Depends: thunar, clamtk
+Description: Simple virus scanning plugin for Thunar file manager
+ A simple plugin to allow right-click virus scanning within Thunar
