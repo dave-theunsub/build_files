@@ -1,0 +1,38 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+SOURCES_DIR	= $(CURDIR)/debian/thunar-sendto-shredder/usr/share/doc/thunar-sendto-shredder
+BIN_DIR		= $(CURDIR)/debian/thunar-sendto-shredder/usr/bin
+IMAGES_DIR	= $(CURDIR)/debian/thunar-sendto-shredder/usr/share/pixmaps
+LIB_DIR		= $(CURDIR)/debian/thunar-sendto-shredder/usr/share/perl5/
+DESKTOP_T	= $(CURDIR)/debian/thunar-sendto-shredder/usr/share/Thunar/sendto
+DESKTOP_A	= $(CURDIR)/debian/thunar-sendto-shredder/usr/share/applications
+
+override_dh_auto_install:
+
+	mkdir -p $(BIN_DIR)
+	install -m 755 $(CURDIR)/thunar-sendto-shredder $(BIN_DIR)/
+
+	mkdir -p $(LIB_DIR)
+	cp -ap $(CURDIR)/Shredder $(LIB_DIR)/
+
+	mkdir -p $(IMAGES_DIR)
+	install -m 644 $(CURDIR)/images/*.png $(IMAGES_DIR)
+	install -m 644 $(CURDIR)/images/*.xpm $(IMAGES_DIR)
+
+	mkdir -p $(DESKTOP_T)
+	cp $(CURDIR)/thunar-sendto-shredder.desktop $(DESKTOP_T)
+	mkdir -p $(DESKTOP_A)
+	cp $(CURDIR)/thunar-sendto-shredder.desktop $(DESKTOP_A)
+
+	dh $@ --after dh_auto_install --before dh_installdocs
+	dh_installdocs README.md
+	dh_installchangelogs CHANGES
+	dh_installman thunar-sendto-shredder.1.gz
+	dh $@ --after dh_installdocs
+
+%:
+	dh $@

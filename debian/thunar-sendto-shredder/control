@@ -1,0 +1,18 @@
+Source: thunar-sendto-shredder
+Section: utils
+Priority: optional
+Maintainer: Dave M <dave.nerd@gmail.com>
+Build-Depends: debhelper (>= 9~), quilt
+Standards-Version: 3.9.6
+Homepage: https://github.com/dave-theunsub/thunar-sendto-shredder
+Vcs-Git: git://bitbucket.org:dave_theunsub/thunar-sendto-shredder.git
+Vcs-Browser: https://bitbucket.org/dave_theunsub/thunar-sendto-shredder.git
+
+Package: thunar-sendto-shredder
+Architecture: all
+Depends:
+ ${perl:Depends},
+ libgtk3-perl,
+ thunar,
+Description: Adds context menu to shred files in Thunar file manager
+ thunar-sendto-shredder adds a context menu option to securely erase files 

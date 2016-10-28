@@ -1,0 +1,5 @@
+thunar-sendto-shredder                  usr/bin/
+thunar-sendto-shredder.desktop          usr/share/Thunar/sendto
+thunar-sendto-shredder.desktop          usr/share/applications
+Shredder/                               usr/share/perl5
+images/*                                usr/share/pixmaps/
