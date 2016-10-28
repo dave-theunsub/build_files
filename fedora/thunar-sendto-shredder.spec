@@ -84,5 +84,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/%{name}.1*
 
 %changelog
-* Wed Oct 26 2016 Dave M. <dave.nerd@gmail.com> - 0.01-1.fc
+* Fri Oct 28 2016 Dave M. <dave.nerd@gmail.com> - 0.01-1.fc
 - Initial release, version 0.01.
