@@ -1,3 +1,15 @@
+clamtk (5.23-1) unstable; urgency=low
+
+  * Update to 5.23.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 29 Oct 2016 06:56:59 -0500
+
+clamtk (5.22-1) unstable; urgency=low
+
+  * Update to 5.22.
+
+ -- Dave M <dave.nerd@gmail.com>  Sun, 18 Sep 2016 06:56:59 -0500
+
 clamtk (5.21-1) unstable; urgency=low
 
   * Update to 5.21.
