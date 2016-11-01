@@ -1,8 +1,7 @@
 ### Build files  
   
-This is a collection of files, scripts, and what not that I use to build binaries (e.g., rpms, debs, ...) of the 
-programs I develop.  If my VirtualBox ever dies, it won't be too difficult to get going again.
-
+This is a collection of files, scripts, and what not that I use to build binaries (e.g., rpms, debs, ...) of the programs I develop.  If my VirtualBox ever dies, it won't be too difficult to get going again. 
+   
 #### Programs
 
 Programs currently listed:  
