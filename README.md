@@ -1,6 +1,6 @@
-##### Build files  
+### Build files  
   
-This is a collection of files, scripts, and what not that I use to build
+This is a collection of files, scripts, and what not that I use to build binaries (e.g., rpms, debs, ...) of the 
 programs I develop.  If my VirtualBox ever dies, it won't be too difficult to get going again.
 
 #### Programs
@@ -13,7 +13,12 @@ Programs currently listed:
 * [thunar-sendto-clamtk](https://github.com/dave-theunsub/thunar-sendto-clamtk)
 * [nemo-sendto-clamtk](https://github.com/dave-theunsub/nemo-sendto-clamtk)
 * [xkcd-generate](https://github.com/dave-theunsub/xkcd-generate)
-* clamtk-gtk3 (not really used yet)
+* [thunar-sendto-shredder](https://github.com/dave-theunsub/thunar-sendto-shredder)
+* clamtk-gtk3 (not really used yet)  
+  
+#### Distributions  
+  
+I currently build binaries for Fedora, CentOS 6, CentOS 7, and Debian/Ubuntu.  One of these days I'll learn some other distributions.
 
 #### Contact
 
