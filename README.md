@@ -24,4 +24,9 @@ I currently build binaries for Fedora, CentOS 6, CentOS 7, and Debian/Ubuntu.  O
 
 Feel free to contact me for suggestions, comments, criticisms, etc.
 
-Dave M [0x6ADA59DE](https://pgp.mit.edu/pks/lookup?search=0x6ADA59DE&op=index)
+Dave M [0x6ADA59DE](https://pgp.mit.edu/pks/lookup?search=0x6ADA59DE&op=index)  
+
+### TODO  
+  
+* Add actual commandline commands used with these scripts.
+* Other stuff.
