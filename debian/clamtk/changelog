@@ -1,3 +1,10 @@
+clamtk (5.24-1) unstable; urgency=low
+
+  * Update to 5.24.
+  * Removed built-in help.
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 18 Nov 2016 15:11:08 -0600
+
 clamtk (5.23-1) unstable; urgency=low
 
   * Update to 5.23.
