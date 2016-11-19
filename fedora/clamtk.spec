@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.23
+Version: 5.24
 Release: 1.fc
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
@@ -36,10 +36,10 @@ install -p -m0644 lib/*.pm %{buildroot}/%{perl_vendorlib}/ClamTk/
 
 # Install help files
 # help/C/clamtk/figures
-for dir in help/* ; do
-        mkdir -p %{buildroot}/%{_datadir}/$dir/
-        cp -a $dir/* %{buildroot}/%{_datadir}/$dir/%{name}
-done
+#for dir in help/* ; do
+#        mkdir -p %{buildroot}/%{_datadir}/$dir/
+#        cp -a $dir/* %{buildroot}/%{_datadir}/$dir/%{name}
+#done
 
 # Install locale files
 for n in po/*.mo ; do
@@ -61,7 +61,7 @@ update-desktop-database &> /dev/null || :
 update-desktop-database &> /dev/null || :
 
 %files -f %{name}.lang
-%doc CHANGES DISCLAIMER LICENSE README
+%doc CHANGES DISCLAIMER LICENSE README.md credits.md
 
 # The main executable
 %{_bindir}/%{name}
@@ -82,6 +82,11 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Fri Nov 18 2016 Dave M. <dave.nerd@gmail.com> - 5.24-1.fc
+- Updated to release 5.24.
+- Remove help docs
+- Update other documentation names, add new credits.md
+
 * Sat Oct 29 2016 Dave M. <dave.nerd@gmail.com> - 5.23-1.fc
 - Updated to release 5.23.
 
