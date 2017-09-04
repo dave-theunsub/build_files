@@ -1,12 +1,12 @@
 Name: clamtk
-Version: 5.24
+Version: 5.25
 Release: 1.el7
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
 Group: Applications/System
-URL: https://bitbucket.org/dave_theunsub/clamtk/
+URL: https://bitbucket.org/davem_/clamtk/
 
-Source: https://bitbucket.org/dave_theunsub/clamtk/downloads/clamtk-%{version}.tar.gz
+Source: https://bitbucket.org/davem_/clamtk/downloads/clamtk-%{version}.tar.xz
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
@@ -14,7 +14,7 @@ Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: perl(LWP::UserAgent), perl(LWP::Protocol::https)
 Requires: perl(Gtk2) >= 1.248
 Requires: clamav >= 0.95, clamav-update, data(clamav)
-Requires: gnome-icon-theme, cronie
+Requires: gnome-icon-theme-legacy, cronie
 
 %description
 ClamTk is a front end for ClamAV anti-virus.
@@ -33,13 +33,6 @@ install -p -D -m0644 images/clamtk.png %{buildroot}/%{_datadir}/pixmaps/%{name}.
 install -p -D -m0644 clamtk.1.gz %{buildroot}/%{_mandir}/man1/%{name}.1.gz
 install -p -D -m0644 clamtk.desktop %{buildroot}/%{_datadir}/applications/%{name}.desktop
 install -p -m0644 lib/*.pm %{buildroot}/%{perl_vendorlib}/ClamTk/
-
-# Install help files
-# help/C/clamtk/figures
-#for dir in help/* ; do
-#	mkdir -p %{buildroot}/%{_datadir}/$dir/
-#	cp -a $dir/* %{buildroot}/%{_datadir}/$dir/%{name}
-#done
 
 # Install locale files
 for n in po/*.mo ; do
@@ -76,13 +69,15 @@ update-desktop-database &> /dev/null || :
 # Desktop file
 %{_datadir}/applications/%{name}.desktop
 
-# Help files
-#%{_datadir}/help/*/%{name}/
-
 # Man pages
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Mon Sep 4 2017 Dave M. <dave.nerd@gmail.com> - 5.25-1.el7
+- Updated to release 5.25.
+- Fix bitbucket URLs
+- Change compression from gz -> xz.
+
 * Fri Nov 18 2016 Dave M. <dave.nerd@gmail.com> - 5.24-1.el7
 - Updated to release 5.24.
 - Remove help documentation.
