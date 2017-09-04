@@ -1,3 +1,12 @@
+clamtk (5.25-1) unstable; urgency=low
+
+  * Update to 5.25.
+  * Compression changed from gz -> xz.
+  * Update a few links.
+  * Removed menu file from build. 
+
+ -- Dave M <dave.nerd@gmail.com>  Mon, 04 Sep 2017 09:11:08 -0500
+
 clamtk (5.24-1) unstable; urgency=low
 
   * Update to 5.24.

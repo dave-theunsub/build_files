@@ -5,9 +5,9 @@ Maintainer: Dave M <dave.nerd@gmail.com>
 Build-Depends: debhelper (>= 9~)
 Build-Depends-Indep: liblocale-gettext-perl, gettext
 Standards-Version: 3.9.8
-Homepage: https://github.com/dave-theunsub/clamtk/
-Vcs-Git: git://bitbucket.org:dave_theunsub/clamtk.git
-Vcs-Browser: https://bitbucket.org/dave_theunsub/clamtk.git
+Homepage: https://dave-theunsub.github.io/clamtk/
+Vcs-Git: git://bitbucket.org:davem_/clamtk.git
+Vcs-Browser: https://bitbucket.org/davem_/clamtk.git
 
 Package: clamtk
 Architecture: all

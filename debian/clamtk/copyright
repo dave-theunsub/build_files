@@ -1,7 +1,7 @@
 Source downloaded from https://bitbucket.org/dave_theunsub/clamtk/downloads/.
 
 Files: debian/*
-Copyright: © 2013-2016, Dave M <dave.nerd@gmail.com>
+Copyright: © 2013-2017, Dave M <dave.nerd@gmail.com>
            © 2007-2013, David Paleino <d.paleino@gmail.com>
            © 2005, Daniel Holbach <dh@mailempfang.de>
 License: GPL-3+
@@ -11,7 +11,7 @@ License: GPL-3+
  (at your option) any later version.
 
 Files: *
-Copyright: © 2004-2016, Dave Mauroni <dave.nerd@gmail.com>
+Copyright: © 2004-2017, Dave Mauroni <dave.nerd@gmail.com>
 License: GPL-1+ | Artistic
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
