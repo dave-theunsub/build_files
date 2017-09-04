@@ -1,12 +1,12 @@
 Name: clamtk
-Version: 5.24
+Version: 5.25
 Release: 1.fc
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
 Group: Applications/System
-URL: https://bitbucket.org/dave_theunsub/clamtk/
+URL: https://bitbucket.org/davem_/clamtk/
 
-Source: https://bitbucket.org/dave_theunsub/clamtk/downloads/clamtk-%{version}.tar.gz
+Source: https://bitbucket.org/davem_/clamtk/downloads/clamtk-%{version}.tar.xz
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
@@ -34,13 +34,6 @@ install -p -D -m0644 clamtk.1.gz %{buildroot}/%{_mandir}/man1/%{name}.1.gz
 install -p -D -m0644 clamtk.desktop %{buildroot}/%{_datadir}/applications/%{name}.desktop
 install -p -m0644 lib/*.pm %{buildroot}/%{perl_vendorlib}/ClamTk/
 
-# Install help files
-# help/C/clamtk/figures
-#for dir in help/* ; do
-#        mkdir -p %{buildroot}/%{_datadir}/$dir/
-#        cp -a $dir/* %{buildroot}/%{_datadir}/$dir/%{name}
-#done
-
 # Install locale files
 for n in po/*.mo ; do
 	install -p -D -m0644 $n %{buildroot}/%{_datadir}/locale/`basename $n .mo`/LC_MESSAGES/clamtk.mo
@@ -50,7 +43,7 @@ desktop-file-install --delete-original				\
 	--add-category="GTK"					\
 	--add-category="GNOME"					\
 	--add-category="Utility"				\
-	--dir %{buildroot}/%{_datadir}/applications %{buildroot}/%{_datadir}/applications/*
+    --dir %{buildroot}/%{_datadir}/applications %{buildroot}/%{_datadir}/applications/*
 
 %find_lang %{name} --with-gnome
 
@@ -75,13 +68,15 @@ update-desktop-database &> /dev/null || :
 # Desktop file
 %{_datadir}/applications/%{name}.desktop
 
-# Help files
-#%{_datadir}/help/*/%{name}/
-
 # Man pages
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Mon Sep 4 2017 Dave M. <dave.nerd@gmail.com> - 5.25-1.fc
+- Updated to release 5.25.
+- Switched source from gz to xz.
+- Updated bitbucket links.
+
 * Fri Nov 18 2016 Dave M. <dave.nerd@gmail.com> - 5.24-1.fc
 - Updated to release 5.24.
 - Remove help docs
