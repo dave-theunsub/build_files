@@ -1,3 +1,9 @@
+clamtk-gnome (0.02-1) unstable; urgency=low
+
+  * New release.
+
+ -- Dave M <dave.nerd@gmail.com>  Thu, 07 Sep 2017 12:59:20 -0500
+
 clamtk-gnome (0.01-1) unstable; urgency=low
 
   * Initial release as a separate package from ClamTk. Closes: #1260284
