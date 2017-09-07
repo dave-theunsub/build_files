@@ -1,12 +1,12 @@
 Name: clamtk-gnome
-Version: 0.01
+Version: 0.02
 Release: 1.fc
 Summary: Adds context menu for virus scanning from within Gnome's file manager
 License: GPL+ or Artistic 2.0
 Group: Applications/System
-URL: https://bitbucket.org/dave_theunsub/clamtk-gnome/
+URL: https://bitbucket.org/davem_/clamtk-gnome/
 
-Source: https://bitbucket.org/dave_theunsub/clamtk-gnome/downloads/%{name}-%{version}.tar.gz
+Source: https://bitbucket.org/davem_/clamtk-gnome/downloads/%{name}-%{version}.tar.xz
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
@@ -26,7 +26,6 @@ rm -rf %{buildroot}
 %{__install} -p -D -m0644 images/%{name}.png %{buildroot}/%{_datadir}/pixmaps/%{name}.png
 %{__install} -p -D -m0644 %{name}.1.gz %{buildroot}/%{_mandir}/man1/%{name}.1.gz
 %{__install} -p -D -m0755 %{name}.py %{buildroot}/%{_datadir}/nautilus-python/extensions/%{name}.py
-# %{__install} -D -m0644 %{name}.desktop %{buildroot}/%{_datadir}/applications/%{name}.desktop
 
 %post
 update-desktop-database &> /dev/null || :
@@ -35,7 +34,7 @@ update-desktop-database &> /dev/null || :
 update-desktop-database &> /dev/null || :
 
 %files
-%doc CHANGES DISCLAIMER LICENSE README
+%doc CHANGES DISCLAIMER LICENSE README.md
 
 # Image
 %{_datadir}/pixmaps/%{name}.png
@@ -46,10 +45,11 @@ update-desktop-database &> /dev/null || :
 # Nautilus extension executable
 %{_datadir}/nautilus-python/extensions/%{name}.py*
 
-# Desktop file
-# %{_datadir}/applications/%{name}.desktop
-
 %changelog
+* Thu Sep 7 2017 Dave M. <dave.nerd@gmail.com> - 0.02-1.fc
+- Remove .desktop file.
+- Update URLs.
+
 * Sun Sep 6 2015 Dave M. <dave.nerd@gmail.com> - 0.01-1.fc
 - Initial release as a separate package
 - Closes RH #1260284
