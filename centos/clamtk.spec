@@ -1,12 +1,12 @@
 Name: clamtk
-Version: 5.24
+Version: 5.25
 Release: 1.el6
 Summary: Easy to use front-end for ClamAV
 License: GPL+ or Artistic 2.0
 Group: Applications/File
-URL: https://bitbucket.org/dave_theunsub/clamtk
+URL: https://bitbucket.org/davem_/clamtk
 
-Source: https://bitbucket.org/dave_theunsub/clamtk/downloads/clamtk-%{version}.tar.gz
+Source: https://bitbucket.org/davem_/clamtk/downloads/clamtk-%{version}.tar.xz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
@@ -35,17 +35,6 @@ install -p -D -m0644 clamtk.1.gz %{buildroot}/%{_mandir}/man1/clamtk.1.gz
 install -p -D -m0644 clamtk.desktop %{buildroot}/%{_datadir}/applications/clamtk.desktop
 install -p -d %{buildroot}/%{perl_vendorlib}/ClamTk
 install -p -m0644 lib/*.pm %{buildroot}/%{perl_vendorlib}/ClamTk/
-
-# Install help files
-# CentOS uses /usr/share/gnome/help/$package/$locale,
-# while our package is clamtk-X-XX/help/$locale/$package.
-# Thanks for making that easy.
-#mkdir -p %{buildroot}/%{_datadir}/gnome/help/%{name}
-#for dir in help/* ; do
-#	basename=`basename $dir`
-#	mkdir -p %{buildroot}/%{_datadir}/gnome/help/%{name}/$basename
-#	cp -a help/$basename/%{name}/* %{buildroot}/%{_datadir}/gnome/help/%{name}/$basename/
-#done
 
 # Install locale files
 for n in po/*.mo ; do
@@ -86,13 +75,15 @@ rm -rf %{buildroot}
 # Desktop file
 %{_datadir}/applications/*.desktop
 
-# Help files
-#%{_datadir}/gnome/help/%{name}/
-
 # Man pages
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat Sep 9 2017 Dave M. <dave.nerd@gmail.com> - 5.25-1.el6
+- Updated to release 5.25.
+- Change source to .xz.
+- Update source links.
+
 * Fri Nov 18 2016 Dave M. <dave.nerd@gmail.com> - 5.24-1.el6
 - Updated to release 5.24.
 - Remove help documentation.
