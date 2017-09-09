@@ -1,0 +1,3 @@
+version=3
+
+https://bitbucket.org/davem_/clamtk/downloads.*/clamtk-(\d\S*)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
