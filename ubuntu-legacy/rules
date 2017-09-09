@@ -5,7 +5,7 @@
 #export DH_VERBOSE=1
 
 LOCALES_DIR 	= $(CURDIR)/debian/clamtk/usr/share/locale
-HELP_DIR	= $(CURDIR)/debian/clamtk/usr/share/help
+# HELP_DIR	= $(CURDIR)/debian/clamtk/usr/share/help
 BIN_DIR		= $(CURDIR)/debian/clamtk/usr/bin
 IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/pixmaps
 LIB_DIR		= $(CURDIR)/debian/clamtk/usr/share/perl5/ClamTk
@@ -21,9 +21,6 @@ override_dh_auto_install:
 	mkdir -p $(BIN_DIR)
 	install -m 755 $(CURDIR)/clamtk $(BIN_DIR)/clamtk
 
-	mkdir -p $(HELP_DIR)
-	cp -ap $(CURDIR)/help/* $(HELP_DIR)/
-
 	mkdir -p $(IMAGES_DIR)
 	install -m 644 $(CURDIR)/images/clamtk.* $(IMAGES_DIR)
 
@@ -31,7 +28,7 @@ override_dh_auto_install:
 	cp $(CURDIR)/lib/* $(LIB_DIR)
 
 	dh $@ --after dh_auto_install --before dh_installdocs
-	dh_installdocs README
+	dh_installdocs README.md
 	dh_installchangelogs CHANGES
 	dh_installman clamtk.1.gz
 	dh $@ --after dh_installdocs

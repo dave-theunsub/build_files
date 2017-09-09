@@ -1,6 +1,35 @@
+clamtk (5.25-1.legacy) unstable; urgency=low
+
+  * Update to 5.25.
+  * Change compression from gz to xz.
+  * Update to gnome-icon-theme-full to alleviate dependency issue.
+  * Update README to README.md which is more current.
+  * Update gpg key in build.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 09 Sep 2017 02:30:21 -0500
+
+clamtk (5.24-1.legacy) unstable; urgency=low
+
+  * Update to 5.24.
+  * Remove help documentation.
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 18 Nov 2016 16:42:08 -0600
+
+clamtk (5.23-1.legacy) unstable; urgency=low
+
+  * Update to 5.23.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 29 Oct 2016 07:30:05 -0500
+
+clamtk (5.22-1.legacy) unstable; urgency=low
+
+  * Update to 5.22.
+
+ -- Dave M <dave.nerd@gmail.com>  Sun, 18 Sep 2016 09:27:28 -0500
+
 clamtk (5.21-1.legacy) unstable; urgency=low
 
-  * Update to 5.20.
+  * Update to 5.21.
 
  -- Dave M <dave.nerd@gmail.com>  Sun, 21 Aug 2016 07:23:03 -0500
 
