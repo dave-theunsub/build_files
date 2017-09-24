@@ -2,6 +2,7 @@ clamtk-kde (0.18-1) unstable; urgency=low
 
   * New release.
   * Update project URLs.
+  * Update install path for Dolphin.
 
  -- Dave M <dave.nerd@gmail.com>  Sun, 24 Sep 2017 07:47:36 -0500
 
