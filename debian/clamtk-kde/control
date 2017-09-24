@@ -5,13 +5,13 @@ Maintainer: Dave M <dave.nerd@gmail.com>
 Build-Depends: debhelper (>= 9~),
 Standards-Version: 3.9.5
 Homepage: http://dave-theunsub.github.io/clamtk/
-Vcs-Git: git://bitbucket.org:dave_theunsub/clamtk-kde.git
-Vcs-Browser: https://bitbucket.org/dave_theunsub/clamtk-kde
+Vcs-Git: git://bitbucket.org:davem_/clamtk-kde.git
+Vcs-Browser: https://bitbucket.org/davem_/clamtk-kde
 
 Package: clamtk-kde
 Architecture: all
 Depends:
- clamtk (>= 4.00),
+ clamtk (>= 5.00),
  dolphin,
 Description: simple extension for using ClamTk with KDE
  clamtk-kde provides right-click, context menu support for KDE's Dolphin.
