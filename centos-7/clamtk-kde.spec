@@ -1,17 +1,17 @@
 Name: clamtk-kde
-Version: 0.17
+Version: 0.18
 Release: 1.el7
 Summary: Plug-in to allow right-click virus-scanning within KDE
 License: GPL+ or Artistic 2.0
 Group: System Environment/Shells
-URL: http://dave-theunsub.github.io/clamtk/
+URL: https://bitbucket.org/davem_/clamtk-kde/
 
-Source: https://bitbucket.org/dave_theunsub/clamtk-kde/downloads/clamtk-kde-%{version}.tar.gz
+Source: https://bitbucket.org/davem_/clamtk-kde/downloads/clamtk-kde-%{version}.tar.xz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
-Requires: clamtk >= 4.00, kde-filesystem
+Requires: clamtk >= 5.00, kde-filesystem
 
 %description
 ClamTk is a front-end for ClamAV anti-virus.
@@ -34,12 +34,17 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-, root, root, -)
-%doc README LICENSE CHANGES
+%doc README.md LICENSE CHANGES
 %{_datadir}/kde4/services/ServiceMenus/*.desktop
 %{_datadir}/pixmaps/clamtk-kde.xpm
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sun Sep 24 2016 Dave M. <dave.nerd@gmail.com> - 0.18-1.el7
+- Upgraded to 0.18.
+- Update URLs.
+- Compression from gz to xz.
+
 * Sun Aug 28 2016 Dave M. <dave.nerd@gmail.com> - 0.17-1.el7
 - Upgraded to 0.17.
 
