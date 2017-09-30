@@ -1,17 +1,17 @@
 Name: thunar-sendto-clamtk
-Version: 0.05
+Version: 0.06
 Release: 1.fc
 Summary: Extension for Thunar to send files and directories for virus scanning
 License: GPL+ or Artistic 2.0
 Group: Applications/System
-URL: http://code.google.com/p/clamtk/
+URL: https://bitbucket.org/davem_/thunar-sendto-clamtk
 
-Source: https://bitbucket.org/dave_theunsub/thunar-sendto-clamtk/downloads/thunar-sendto-clamtk-%{version}.tar.gz
+Source: https://bitbucket.org/davem_/thunar-sendto-clamtk/downloads/thunar-sendto-clamtk-%{version}.tar.xz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
-Requires: Thunar, clamtk >= 4.00
+Requires: Thunar, clamtk >= 5.00
 
 %description
 This is a simple extension to add virus scanning to Thunar
@@ -28,8 +28,6 @@ It is meant to be lightweight and easy to use.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-#%find_lang %{name}
-
 desktop-file-install --vendor "" \
 	--dir ${RPM_BUILD_ROOT}%{_datadir}/Thunar/sendto \
 	%{name}.desktop
@@ -43,6 +41,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/Thunar/sendto/%{name}.desktop
 
 %changelog
+* Sat Sep 29 2017 Dave M. <dave.nerd@gmail.com> - 0.06-1.fc
+- Update to 0.06.
+- Update links.
+- Change compression gz -> xz.
+
 * Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.05-1.fc
 - Update to 0.05.
 
