@@ -4,7 +4,9 @@ Priority: optional
 Maintainer: Dave Mauroni <dave.nerd@gmail.com>
 Build-Depends: debhelper (>= 9~)
 Standards-Version: 3.9.5
-Homepage: http://code.google.com/p/clamtk/
+Homepage: https://dave-theunsub.github.io/clamtk/
+Vcs-Git: git://bitbucket.org/davem_/thunar-sendto-clamtk.git
+Vcs-Browser: https://bitbucket.org/davem_/thunar-sendto-clamtk
 
 Package: thunar-sendto-clamtk
 Architecture: all
