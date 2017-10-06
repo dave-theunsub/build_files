@@ -4,14 +4,14 @@ Priority: extra
 Maintainer: Dave M <dave.nerd@gmail.com>
 Build-Depends: debhelper (>= 9~)
 Standards-Version: 3.9.5
-Homepage: http://code.google.com/p/clamtk/
-Vcs-git: git@bitbucket.org:dave_theunsub/nemo-sendto-clamtk.git
-Vcs-Browser: https://bitbucket.org/dave_theunsub/nemo-sendto-clamtk.git
+Homepage: https://bitbucket.org/davem_/nemo-sendto-clamtk/
+Vcs-git: git@bitbucket.org:davem_/nemo-sendto-clamtk.git
+Vcs-Browser: https://bitbucket.org/davem_/nemo-sendto-clamtk.git
 
 Package: nemo-sendto-clamtk
 Architecture: all
 Depends: ${misc:Depends},
  nemo,
- clamtk (>= 4.00),
+ clamtk (>= 5.00),
 Description: Simple extension to add virus scanning to nemo
  A simple extension to add a virus scanning option to the nemo file manager

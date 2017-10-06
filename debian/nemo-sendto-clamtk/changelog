@@ -1,3 +1,11 @@
+nemo-sendto-clamtk (0.04-1) unstable; urgency=low
+
+  * New upstream release
+  * Change compression gz -> xz
+  * Update year, links
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 06 Oct 2017 09:28:51 -0500
+
 nemo-sendto-clamtk (0.03-1) unstable; urgency=low
 
   * New upstream release
