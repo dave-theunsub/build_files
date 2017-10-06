@@ -4,9 +4,9 @@ Release: 1.fc
 Summary: Simple extension to add virus scanning to nemo
 License: GPL+ or Artistic 2.0
 Group: Applications/System
-URL: https://bitbucket.org/dave_theunsub/nemo-sendto-clamtk/
+URL: https://bitbucket.org/davem_/nemo-sendto-clamtk/
 
-Source: https://bitbucket.org/dave_theunsub/nemo-sendto-clamtk/downloads/nemo-sendto-clamtk-%{version}.tar.xz
+Source: https://bitbucket.org/davem_/nemo-sendto-clamtk/downloads/nemo-sendto-clamtk-%{version}.tar.xz
 
 BuildArch: noarch
 BuildRequires: desktop-file-utils
@@ -36,6 +36,7 @@ install -p -D -m0644 %{name}.nemo_action %{buildroot}/%{_datadir}/nemo/actions/
 * Fri Oct 6 2017 Dave M. <dave.nerd@gmail.com> - 0.04-1.fc
 - Updated to release 0.04.
 - Updated links.
+- Updated compression from gz -> xz.
 
 * Mon Sep 5 2016 Dave M. <dave.nerd@gmail.com> - 0.03-1.fc
 - Updated to release 0.03.
