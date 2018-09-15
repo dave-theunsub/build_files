@@ -1,3 +1,9 @@
+clamtk (5.26-1) unstable; urgency=low
+
+  * Update to 5.26.
+
+ -- Dave M <dave.nerd@gmail.com>  Tue, 04 Sep 2018 07:33:15 -0500
+
 clamtk (5.25-1) unstable; urgency=low
 
   * Update to 5.25.
