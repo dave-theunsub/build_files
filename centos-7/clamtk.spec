@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.26
+Version: 5.27
 Release: 1.el7
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
@@ -48,12 +48,6 @@ desktop-file-install --delete-original				\
 
 %find_lang %{name} --with-gnome
 
-%post
-update-desktop-database &> /dev/null || :
-
-%postun
-update-desktop-database &> /dev/null || :
-
 %files -f %{name}.lang
 %doc CHANGES DISCLAIMER LICENSE README.md credits.md
 
@@ -73,12 +67,16 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat Feb 2 2019 Dave M. <dave.nerd@gmail.com> - 5.27-1.el7
+- Updated to release 5.27.
+- Removed obsolete scriptlets (post, postrun).
+
 * Sat Aug 25 2018 Dave M. <dave.nerd@gmail.com> - 5.26-1.el7
 - Updated to release 5.26.
 
 * Mon Sep 4 2017 Dave M. <dave.nerd@gmail.com> - 5.25-1.el7
 - Updated to release 5.25.
-- Fix bitbucket URLs
+- Fix bitbucket URLs.
 - Change compression from gz -> xz.
 
 * Fri Nov 18 2016 Dave M. <dave.nerd@gmail.com> - 5.24-1.el7
