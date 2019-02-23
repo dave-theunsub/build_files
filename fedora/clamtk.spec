@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.27
+Version: 6.00
 Release: 1.fc
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
@@ -12,7 +12,7 @@ BuildArch: noarch
 BuildRequires: desktop-file-utils
 Requires: perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires: perl(LWP::UserAgent), perl(LWP::Protocol::https)
-Requires: perl(Gtk2) >= 1.241
+Requires: perl(Gtk3)
 Requires: clamav >= 0.95, clamav-update, data(clamav)
 Requires: gnome-icon-theme-legacy, cronie
 
@@ -66,6 +66,10 @@ desktop-file-install --delete-original				\
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Fri Feb 22 2019 Dave M. <dave.nerd@gmail.com> - 6.00-1.fc
+- Updated to release 6.00.
+- Updated to use Gtk3.
+
 * Sat Feb 2 2019 Dave M. <dave.nerd@gmail.com> - 5.27-1.fc
 - Updated to release 5.27.
 - Removed obsolete scriptlets post, postrun
