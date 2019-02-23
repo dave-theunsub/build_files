@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 5.26
+Version: 5.27
 Release: 1.el6
 Summary: Easy to use front-end for ClamAV
 License: GPL+ or Artistic 2.0
@@ -79,6 +79,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat Feb 9 2019 Dave M. <dave.nerd@gmail.com> - 5.27-1.el6
+- Updated to release 5.27.
+
 * Sat Sep 15 2018 Dave M. <dave.nerd@gmail.com> - 5.26-1.el6
 - Updated to release 5.26.
 
