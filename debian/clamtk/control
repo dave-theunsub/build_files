@@ -5,9 +5,9 @@ Maintainer: Dave M <dave.nerd@gmail.com>
 Build-Depends: debhelper (>= 9~)
 Build-Depends-Indep: liblocale-gettext-perl, gettext
 Standards-Version: 3.9.8
-Homepage: https://dave-theunsub.github.io/clamtk/
-Vcs-Git: git://bitbucket.org:davem_/clamtk.git
-Vcs-Browser: https://bitbucket.org/davem_/clamtk.git
+Homepage: https://gitlab.com/dave_m/clamtk/wikis/Home
+Vcs-Git: git://bitbucket.org:davem_/clamtk-gtk3.git
+Vcs-Browser: https://bitbucket.org/davem_/clamtk-gtk3.git
 
 Package: clamtk
 Architecture: all
@@ -15,7 +15,7 @@ Depends:
  ${perl:Depends},
  clamav (>= 0.95),
  clamav-freshclam (>= 0.95),
- libgtk2-perl (>= 2:1.241),
+ libgtk3-perl, 
  libtext-csv-perl,
  libwww-perl,
  libjson-perl,

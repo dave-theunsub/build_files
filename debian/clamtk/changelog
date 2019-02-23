@@ -1,3 +1,16 @@
+clamtk (6.00-1) unstable; urgency=low
+
+  * Update to 6.00.
+  * Updated to use libperl-gtk3.
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 22 Feb 2019 06:25:26 -0600
+
+clamtk (5.27-1) unstable; urgency=low
+
+  * Update to 5.27.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 09 Feb 2019 01:11:37 -0600
+
 clamtk (5.26-1) unstable; urgency=low
 
   * Update to 5.26.
