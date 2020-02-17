@@ -1,5 +1,5 @@
 Name: clamtk-gnome
-Version: 0.02
+Version: 0.03
 Release: 1.fc
 Summary: Adds context menu for virus scanning from within Gnome's file manager
 License: GPL+ or Artistic 2.0
@@ -46,6 +46,9 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/nautilus-python/extensions/%{name}.py*
 
 %changelog
+* Sat Apr 13 2019 Dave M. <dave.nerd@gmail.com> - 0.03-1.fc
+- New release allowing for python3.
+
 * Thu Sep 7 2017 Dave M. <dave.nerd@gmail.com> - 0.02-1.fc
 - Remove .desktop file.
 - Update URLs.
