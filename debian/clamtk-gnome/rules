@@ -19,8 +19,7 @@ override_dh_auto_install:
 	dh_installdocs README.md DISCLAIMER
 	dh_installchangelogs CHANGES
 	dh_installman	clamtk-gnome.1.gz
-	dh_python2
 	dh_python3
 
 %:
-	dh $@
+	dh $@  --with python3
