@@ -1,6 +1,6 @@
 Name: clamtk
-Version: 6.02
-Release: 2.el8
+Version: 6.03
+Release: 1.el8
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
 Group: Applications/System
@@ -68,10 +68,8 @@ desktop-file-install --delete-original				\
 %{_mandir}/man1/%{name}.1*
 
 %changelog
-* Fri Jan 10 2020 Dave M. <dave.nerd@gmail.com> - 6.02-2.el8
-- Initial build for EPEL-8 - 6.02.
-- Removed deprecated icons requirement.
-- Added explicit clamav-data requirement as data(clamav) no longer works?.
+* Thu Apr 23 2020 Dave M. <dave.nerd@gmail.com> - 6.03-1.el8
+- Updated to release 6.03.
 
 * Fri Sep 27 2019 Dave M. <dave.nerd@gmail.com> - 6.02-1.el7
 - Updated to release 6.02.
