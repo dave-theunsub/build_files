@@ -1,3 +1,10 @@
+clamtk (6.04-1) unstable; urgency=low
+
+  * Update to 6.04.
+  * Remove menu file from debian build directory.
+
+ -- Dave M <dave.nerd@gmail.com>  Thu, 23 Jul 2020 06:10:36 -0500
+
 clamtk (6.03-1) unstable; urgency=low
 
   * Update to 6.03.
