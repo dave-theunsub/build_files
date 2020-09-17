@@ -13,7 +13,6 @@ Programs currently listed:
 * [nemo-sendto-clamtk](https://github.com/dave-theunsub/nemo-sendto-clamtk)
 * [xkcd-generate](https://github.com/dave-theunsub/xkcd-generate)
 * [thunar-sendto-shredder](https://github.com/dave-theunsub/thunar-sendto-shredder)
-* clamtk-gtk3 (not really used yet)  
   
 #### Distributions  
   
