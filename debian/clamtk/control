@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 9~)
 Build-Depends-Indep: liblocale-gettext-perl, gettext
 Standards-Version: 3.9.8
 Homepage: https://gitlab.com/dave_m/clamtk/wikis/Home
-Vcs-Git: git://bitbucket.org:davem_/clamtk-gtk3.git
-Vcs-Browser: https://bitbucket.org/davem_/clamtk-gtk3.git
+Vcs-Git: git://bitbucket.org:davem_/clamtk.git
+Vcs-Browser: https://bitbucket.org/davem_/clamtk.git
 
 Package: clamtk
 Architecture: all

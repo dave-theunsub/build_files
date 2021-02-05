@@ -1,3 +1,10 @@
+clamtk (6.07-1) unstable; urgency=low
+
+  * Update to 6.07.
+  * Remove menu file.
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 05 Feb 2021 05:51:16 -0600
+
 clamtk (6.06-1) unstable; urgency=low
 
   * Update to 6.06.

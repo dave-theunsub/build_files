@@ -30,11 +30,9 @@ override_dh_auto_install:
 	mkdir -p $(LIB_DIR)
 	cp $(CURDIR)/lib/* $(LIB_DIR)
 
-	dh $@ --after dh_auto_install --before dh_installdocs
 	dh_installdocs README.md
 	dh_installchangelogs CHANGES
 	dh_installman clamtk.1.gz
-	dh $@ --after dh_installdocs
 
 %:
 	dh $@
