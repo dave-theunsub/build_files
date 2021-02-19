@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 6.07
+Version: 6.08
 Release: 1.el7
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
@@ -68,6 +68,9 @@ desktop-file-install --delete-original				\
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Thu Feb 18 2021 Dave M. <dave.nerd@gmail.com> - 6.08-1%{dist}
+- Updated to release 6.08.
+
 * Sun Jan 31 2021 Dave M. <dave.nerd@gmail.com> - 6.07-1%{dist}
 - Updated to release 6.07.
 
