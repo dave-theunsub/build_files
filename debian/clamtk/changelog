@@ -1,3 +1,10 @@
+clamtk (6.09-1) unstable; urgency=low
+
+  * Update to 6.09.
+  * Update URLs in control file.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 27 Feb 2021 08:22:25 -0600
+
 clamtk (6.08-1) unstable; urgency=low
 
   * Update to 6.08.
