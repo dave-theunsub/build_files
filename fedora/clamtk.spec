@@ -1,12 +1,12 @@
 Name: clamtk
-Version: 6.08
+Version: 6.09
 Release: 1%{dist}
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
 Group: Applications/System
-URL: https://bitbucket.org/davem_/clamtk/
+URL: https://github.com/dave-theunsub/clamtk
 
-Source: https://bitbucket.org/davem_/clamtk/downloads/clamtk-%{version}.tar.xz
+Source: https://github.com/dave-theunsub/clamtk/releases/download/%{version}/clamtk-%{version}.tar.xz
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
@@ -67,6 +67,10 @@ desktop-file-install --delete-original				\
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Sat Feb 27 2021 Dave M. <dave.nerd@gmail.com> - 6.09-1%{dist}
+- Update URLs in specs.
+- Updated to release 6.09.
+
 * Thu Feb 18 2021 Dave M. <dave.nerd@gmail.com> - 6.08-1%{dist}
 - Updated to release 6.08.
 
