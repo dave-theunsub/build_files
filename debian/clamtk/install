@@ -1,4 +1,5 @@
 clamtk					usr/bin/
 clamtk.desktop			usr/share/applications/
+clamtk.appdata.xml 		usr/share/metainfo/
 images/*				usr/share/pixmaps/
 lib/*					usr/share/perl5/ClamTk/

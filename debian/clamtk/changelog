@@ -1,3 +1,10 @@
+clamtk (6.10-1) unstable; urgency=low
+
+  * Update to 6.10.
+  * Add appdata.xml.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 13 Mar 2021 07:42:15 -0600
+
 clamtk (6.09-1) unstable; urgency=low
 
   * Update to 6.09.

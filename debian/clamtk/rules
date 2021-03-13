@@ -9,6 +9,7 @@ LOCALES_DIR 	= $(CURDIR)/debian/clamtk/usr/share/locale
 BIN_DIR		= $(CURDIR)/debian/clamtk/usr/bin
 IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/pixmaps
 LIB_DIR		= $(CURDIR)/debian/clamtk/usr/share/perl5/ClamTk
+METAINFO	= $(CURDIR)/debian/clamtk/usr/share/metainfo
 
 override_dh_auto_install:
 	@echo Installing locales now...
@@ -29,6 +30,9 @@ override_dh_auto_install:
 
 	mkdir -p $(LIB_DIR)
 	cp $(CURDIR)/lib/* $(LIB_DIR)
+
+	mkdir -p $(METAINFO)
+	install -m 644 $(CURDIR)/clamtk.appdata.xml $(METAINFO)
 
 	dh_installdocs README.md
 	dh_installchangelogs CHANGES
