@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 6.09
+Version: 6.10
 Release: 1%{dist}
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
@@ -46,6 +46,8 @@ desktop-file-install --delete-original				\
 	--add-category="Utility"				\
     --dir %{buildroot}/%{_datadir}/applications %{buildroot}/%{_datadir}/applications/*
 
+install -p -D -m0644 %{name}.appdata.xml %{buildroot}/%{_datadir}/metainfo/%{name}.appdata.xml
+
 %find_lang %{name} --with-gnome
 
 %files -f %{name}.lang
@@ -66,18 +68,25 @@ desktop-file-install --delete-original				\
 # Man pages
 %{_mandir}/man1/%{name}.1*
 
+# Appdata
+%{_datadir}/metainfo/%{name}.appdata.xml
+
 %changelog
-* Sat Feb 27 2021 Dave M. <dave.nerd@gmail.com> - 6.09-1%{dist}
+* Sat Mar 13 2021 Dave M. <dave.nerd@gmail.com> - 6.10-1
+- Add appdata.xml.
+- Updated to release 6.10.
+
+* Sat Feb 27 2021 Dave M. <dave.nerd@gmail.com> - 6.09-1
 - Update URLs in specs.
 - Updated to release 6.09.
 
-* Thu Feb 18 2021 Dave M. <dave.nerd@gmail.com> - 6.08-1%{dist}
+* Thu Feb 18 2021 Dave M. <dave.nerd@gmail.com> - 6.08-1
 - Updated to release 6.08.
 
-* Sun Jan 31 2021 Dave M. <dave.nerd@gmail.com> - 6.07-1%{dist}
+* Sun Jan 31 2021 Dave M. <dave.nerd@gmail.com> - 6.07-1
 - Updated to release 6.07.
 
-* Wed Sep 16 2020 Dave M. <dave.nerd@gmail.com> - 6.06-1%{dist}
+* Wed Sep 16 2020 Dave M. <dave.nerd@gmail.com> - 6.06-1
 - Updated to release 6.06.
 - Use {dist} macro.
 
