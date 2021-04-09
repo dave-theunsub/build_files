@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 6.10
+Version: 6.11
 Release: 1.el7
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
@@ -73,10 +73,13 @@ install -p -D -m0644 %{name}.appdata.xml %{buildroot}/%{_datadir}/metainfo/%{nam
 %{_datadir}/metainfo/%{name}.appdata.xml
 
 %changelog
+* Fri Apr 9 2021 Dave M. <dave.nerd@gmail.com> - 6.11-1
+- Updated to release 6.11.
+
 * Sat Mar 13 2021 Dave M. <dave.nerd@gmail.com> - 6.10-1
 - Add appdata.xml.
 - Remove macro from changelog date line.
-- Updated to release 6.09.
+- Updated to release 6.10.
 
 * Sat Feb 27 2021 Dave M. <dave.nerd@gmail.com> - 6.09-1%{dist}
 - Update URLs in specs.
