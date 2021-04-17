@@ -1,12 +1,12 @@
 Source: nemo-sendto-clamtk
 Section: utils
-Priority: extra
+Priority: optional
 Maintainer: Dave M <dave.nerd@gmail.com>
 Build-Depends: debhelper (>= 9~)
 Standards-Version: 3.9.5
-Homepage: https://bitbucket.org/davem_/nemo-sendto-clamtk/
-Vcs-git: git@bitbucket.org:davem_/nemo-sendto-clamtk.git
-Vcs-Browser: https://bitbucket.org/davem_/nemo-sendto-clamtk.git
+Homepage: https://github.com/dave-theunsub/nemo-sendto-clamtk
+Vcs-git: git@github.com:dave-theunsub/nemo-sendto-clamtk.git
+Vcs-Browser: https://github.com/dave-theunsub/nemo-sendto-clamtk.git
 
 Package: nemo-sendto-clamtk
 Architecture: all

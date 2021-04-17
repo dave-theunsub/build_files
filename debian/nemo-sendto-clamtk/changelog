@@ -1,3 +1,10 @@
+nemo-sendto-clamtk (0.05-1) unstable; urgency=low
+
+  * New upstream release
+  * Fixed Priority option in control file
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 17 Apr 2021 06:55:35 -0500
+
 nemo-sendto-clamtk (0.04-1) unstable; urgency=low
 
   * New upstream release
