@@ -4,12 +4,13 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-LOCALES_DIR 	= $(CURDIR)/debian/clamtk/usr/share/locale
-# HELP_DIR	= $(CURDIR)/debian/clamtk/usr/share/help
-BIN_DIR		= $(CURDIR)/debian/clamtk/usr/bin
-IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/pixmaps
-LIB_DIR		= $(CURDIR)/debian/clamtk/usr/share/perl5/ClamTk
-METAINFO	= $(CURDIR)/debian/clamtk/usr/share/metainfo
+LOCALES_DIR 		= $(CURDIR)/debian/clamtk/usr/share/locale
+# HELP_DIR		= $(CURDIR)/debian/clamtk/usr/share/help
+BIN_DIR			= $(CURDIR)/debian/clamtk/usr/bin
+LEGACY_IMAGES_DIR  	= $(CURDIR)/debian/clamtk/usr/share/pixmaps
+IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/icons/hicolor/128x128/apps
+LIB_DIR			= $(CURDIR)/debian/clamtk/usr/share/perl5/ClamTk
+METAINFO		= $(CURDIR)/debian/clamtk/usr/share/metainfo
 
 override_dh_auto_install:
 	@echo Installing locales now...
@@ -25,14 +26,16 @@ override_dh_auto_install:
 	# mkdir -p $(HELP_DIR)
 	# cp -ap $(CURDIR)/help/* $(HELP_DIR)/
 
-	mkdir -p $(IMAGES_DIR)
+	mkdir -p $(IMAGES_DIR) $(LEGACY_IMAGES_DIR)
 	install -m 644 $(CURDIR)/images/clamtk.* $(IMAGES_DIR)
+	install -m 644 $(CURDIR)/images/clamtk.* $(LEGACY_IMAGES_DIR)
 
 	mkdir -p $(LIB_DIR)
 	cp $(CURDIR)/lib/* $(LIB_DIR)
 
 	mkdir -p $(METAINFO)
-	install -m 644 $(CURDIR)/clamtk.appdata.xml $(METAINFO)
+	install -m 644 $(CURDIR)/com.github.davetheunsub.clamtk.appdata.xml \
+		$(METAINFO)
 
 	dh_installdocs README.md
 	dh_installchangelogs CHANGES

@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 6.11
+Version: 6.13
 Release: 1.el7
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
@@ -31,9 +31,14 @@ mkdir -p %{buildroot}/%{perl_vendorlib}/ClamTk
 
 install -p -D -m0755 clamtk %{buildroot}/%{_bindir}/clamtk
 install -p -D -m0644 images/clamtk.png %{buildroot}/%{_datadir}/pixmaps/%{name}.png
+# For appdata.xml
+install -p -D -m0644 images/%{name}.png %{buildroot}/%{_datadir}/icons/hicolor/128x128/apps/%{name}.png
+
 install -p -D -m0644 clamtk.1.gz %{buildroot}/%{_mandir}/man1/%{name}.1.gz
 install -p -D -m0644 clamtk.desktop %{buildroot}/%{_datadir}/applications/%{name}.desktop
 install -p -m0644 lib/*.pm %{buildroot}/%{perl_vendorlib}/ClamTk/
+
+install -p -D -m0644 com.github.davetheunsub.clamtk.appdata.xml %{buildroot}/%{_datadir}/metainfo/com.github.davetheunsub.clamtk.appdata.xml
 
 # Install locale files
 for n in po/*.mo ; do
@@ -46,8 +51,6 @@ desktop-file-install --delete-original				\
 	--add-category="GNOME"					\
 	--add-category="Utility"				\
 	%{buildroot}/%{_datadir}/applications/%{name}.desktop
-
-install -p -D -m0644 %{name}.appdata.xml %{buildroot}/%{_datadir}/metainfo/%{name}.appdata.xml
 
 %find_lang %{name} --with-gnome
 
@@ -62,6 +65,7 @@ install -p -D -m0644 %{name}.appdata.xml %{buildroot}/%{_datadir}/metainfo/%{nam
 
 # Images
 %{_datadir}/pixmaps/%{name}.png
+%{_datadir}/icons/hicolor/128x128/apps/%{name}.png
 
 # Desktop file
 %{_datadir}/applications/%{name}.desktop
@@ -70,9 +74,15 @@ install -p -D -m0644 %{name}.appdata.xml %{buildroot}/%{_datadir}/metainfo/%{nam
 %{_mandir}/man1/%{name}.1*
 
 # Appdata
-%{_datadir}/metainfo/%{name}.appdata.xml
+%{_datadir}/metainfo/com.github.davetheunsub.clamtk.appdata.xml
 
 %changelog
+* Wed Jul 7 2021 Dave M. <dave.nerd@gmail.com> - 6.13-1
+- Updated to release 6.13.
+
+* Mon Jul 5 2021 Dave M. <dave.nerd@gmail.com> - 6.12-1
+- Updated to release 6.12.
+
 * Fri Apr 9 2021 Dave M. <dave.nerd@gmail.com> - 6.11-1
 - Updated to release 6.11.
 

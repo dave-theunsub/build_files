@@ -1,3 +1,16 @@
+clamtk (6.13-1) unstable; urgency=low
+
+  * Update to 6.13.
+  * The appdata.xml file has been renamed.
+
+ -- Dave M <dave.nerd@gmail.com>  Wed, 07 Jul 2021 07:53:15 -0500
+
+clamtk (6.12-1) unstable; urgency=low
+
+  * Update to 6.12.
+
+ -- Dave M <dave.nerd@gmail.com>  Mon, 05 Jul 2021 08:11:57 -0500
+
 clamtk (6.11-1) unstable; urgency=low
 
   * Update to 6.11.
