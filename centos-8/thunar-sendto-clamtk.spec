@@ -28,7 +28,7 @@ With this extension installed, it is easy to scan files for threats.
 rm -rf $RPM_BUILD_ROOT
 
 desktop-file-install --vendor "" \
-	--dir ${RPM_BUILD_ROOT}%{_datadir}/Thunar/sendto \
+	--dir $RPM_BUILD_ROOT%{_datadir}/Thunar/sendto \
 	%{name}.desktop
 
 %clean
@@ -43,27 +43,26 @@ rm -rf $RPM_BUILD_ROOT
 * Sun Nov 7 2021 Dave M. <dave.nerd@gmail.com> - 0.07-1
 - Update to 0.07.
 - Update links.
-- Remove .fc tag from builds.
+- Remove .fc tags.
 
-* Fri Sep 29 2017 Dave M. <dave.nerd@gmail.com> - 0.06-1.fc
+* Sat Sep 30 2017 Dave M. <dave.nerd@gmail.com> - 0.06-1.el7
 - Update to 0.06.
 - Update links.
-- Change compression gz -> xz.
+- Update compression gz -> xz.
 
-* Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.05-1.fc
+* Sat Mar 15 2014 Dave M. <dave.nerd@gmail.com> - 0.05-1.el6
 - Update to 0.05.
 
-* Sun Nov 10 2013 Dave M. <dave.nerd@gmail.com> - 0.04-1.fc
+* Sun Nov 10 2013 Dave M. <dave.nerd@gmail.com> - 0.04-1.el6
 - Update to 0.04.
-- Minor spec clean-up.
 - Updated Url and Source.
 - Updated License field.
 
-* Fri Apr 20 2012 Dave M. <dave.nerd@gmail.com> - 0.03-1.fc
+* Fri Apr 20 2012 Dave M. <dave.nerd@gmail.com> - 0.03-1.el6
 - Update to 0.03.
 
-* Fri Aug 12 2011 Dave M. <dave.nerd@gmail.com> - 0.02-1.fc
+* Fri Aug 12 2011 Dave M. <dave.nerd@gmail.com> - 0.02-1.el5
 - Update to 0.02.
 
-* Sat Jul 3 2010 Dave M. <dave.nerd@gmail.com> - 0.01-1.fc
+* Sat Jul 3 2010 Dave M. <dave.nerd@gmail.com> - 0.01-1.el5
 - Initial release 0.01.
