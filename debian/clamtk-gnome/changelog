@@ -1,3 +1,10 @@
+clamtk-gnome (6.14-1) unstable; urgency=low
+
+  * New release.
+  * Change version numbering.
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 20 Nov 2021 12:18:34 -0600
+
 clamtk-gnome (0.05-1) unstable; urgency=low
 
   * New release.
