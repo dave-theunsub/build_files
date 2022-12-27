@@ -1,5 +1,5 @@
 Name: clamtk
-Version: 6.14
+Version: 6.15
 Release: 1%{dist}
 Summary: Easy to use graphical user interface for Clam Antivirus (ClamAV)
 License: GPL+ or Artistic 2.0
@@ -33,7 +33,7 @@ install -p -D -m0755 clamtk %{buildroot}/%{_bindir}/clamtk
 install -p -D -m0644 images/clamtk.png %{buildroot}/%{_datadir}/pixmaps/%{name}.png
 
 # For appdata.xml
-install -p -D -m0644 images/%{name}.png %{buildroot}/%{_datadir}/icons/hicolor/128x128/apps/%{name}.png
+# install -p -D -m0644 images/%{name}.png %{buildroot}/%{_datadir}/icons/hicolor/128x128/apps/%{name}.png
 
 install -p -D -m0644 clamtk.1.gz %{buildroot}/%{_mandir}/man1/%{name}.1.gz
 install -p -D -m0644 clamtk.desktop %{buildroot}/%{_datadir}/applications/%{name}.desktop
@@ -56,7 +56,7 @@ desktop-file-install --delete-original				\
 %find_lang %{name} --with-gnome
 
 %files -f %{name}.lang
-%doc CHANGES DISCLAIMER LICENSE README.md credits.md
+%doc CHANGES DISCLAIMER.md LICENSE README.md credits.md
 
 # The main executable
 %{_bindir}/%{name}
@@ -66,7 +66,6 @@ desktop-file-install --delete-original				\
 
 # Images
 %{_datadir}/pixmaps/%{name}.png
-%{_datadir}/icons/hicolor/128x128/apps/%{name}.png
 
 # Desktop file
 %{_datadir}/applications/%{name}.desktop
@@ -78,6 +77,9 @@ desktop-file-install --delete-original				\
 %{_datadir}/metainfo/com.github.davetheunsub.clamtk.appdata.xml
 
 %changelog
+* Tue Dec 27 2022 Dave M. <dave.nerd@gmail.com> - 6.15-1
+- Updated to release 6.15.
+
 * Sat Nov 20 2021 Dave M. <dave.nerd@gmail.com> - 6.14-1
 - Updated to release 6.14.
 - Implement dist tag.
