@@ -1,5 +1,5 @@
 Name: clamtk-gnome
-Version: 6.14
+Version: 6.14.2
 Release: 1%{dist}
 Summary: Adds context menu for virus scanning from within Gnome's file manager
 License: GPL+ or Artistic 2.0
@@ -10,7 +10,7 @@ Source: https://github.com/dave-theunsub/clamtk-gnome/releases/download/v6.14/%{
 BuildArch: noarch
 
 BuildRequires: desktop-file-utils
-Requires: clamtk >= 5.20, nautilus-python, perl-Gtk3
+Requires: clamtk >= 6.00, nautilus-python, perl-Gtk3
 
 %description
 clamtk-gnome adds right-click, context menu support for virus scanning
@@ -46,6 +46,9 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/nautilus-python/extensions/%{name}.py*
 
 %changelog
+* Thu Dec 29 2022 Dave M. <dave.nerd@gmail.com> - 6.14.2-1
+- Update to 6.14.2.
+
 * Sat Nov 20 2021 Dave M. <dave.nerd@gmail.com> - 6.14-1
 - Update to 6.14.
 - Change in version numbering.

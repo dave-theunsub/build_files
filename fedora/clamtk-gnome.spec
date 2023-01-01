@@ -46,7 +46,7 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/nautilus-python/extensions/%{name}.py*
 
 %changelog
-* Sat Dec 3 2022 Dave M. <dave.nerd@gmail.com> - 6.15-1
+* Thu Dec 29 2022 Dave M. <dave.nerd@gmail.com> - 6.15-1
 - Updated to release 6.15.
 - Change nautilus-python requirement to >= 4
 
