@@ -11,10 +11,10 @@ Vcs-Browser: https://github.com/dave-theunsub/clamtk-gnome.git
 Package: clamtk-gnome
 Architecture: all
 Depends:
+ ${python3:Depends},
  clamtk (>= 6.00),
  python3-nautilus,
  python3,
  nautilus (>= 42)
-Recommends: ${python3:Depends}
 Description: simple extension for using clamtk with Gnome
  clamtk-gnome provides context menu support for use with Gnome's file manager

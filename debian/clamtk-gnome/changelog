@@ -1,14 +1,10 @@
-clamtk-gnome (6.14-2) unstable; urgency=low
+clamtk-gnome (6.15-1) unstable; urgency=low
 
   * New release.
-  * This release is for Ubuntu 22.04
   * Built for nautilus >= 42
-  * Update debhelper >= 11, compat = 10
-  * This release sticks with python3-nautilus 3 in clamtk-python.py,
-    the only difference between this and the 6.15 version which uses 4
-  * Fixes Depends from python-nautilus to python3-nautilus
+  * Update debhelper >= 11
 
- -- Dave M <dave.nerd@gmail.com>  Fri, 02 Dec 2022 04:41:27 -0600
+ -- Dave M <dave.nerd@gmail.com>  Sat, 31 Dec 2022 02:19:50 -0600
 
 clamtk-gnome (6.14-1) unstable; urgency=low
 
