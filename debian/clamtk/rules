@@ -4,22 +4,42 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-PYTHON_DIR = $(CURDIR)/debian/clamtk-gnome/usr/share/nautilus-python/extensions
-IMAGES_DIR = $(CURDIR)/debian/clamtk-gnome/usr/share/pixmaps
+LOCALES_DIR 		= $(CURDIR)/debian/clamtk/usr/share/locale
+# HELP_DIR		= $(CURDIR)/debian/clamtk/usr/share/help
+BIN_DIR			= $(CURDIR)/debian/clamtk/usr/bin
+LEGACY_IMAGES_DIR  	= $(CURDIR)/debian/clamtk/usr/share/pixmaps
+IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/icons/hicolor/128x128/apps
+LIB_DIR			= $(CURDIR)/debian/clamtk/usr/share/perl5/ClamTk
+METAINFO		= $(CURDIR)/debian/clamtk/usr/share/metainfo
 
 override_dh_auto_install:
-	mkdir -p $(PYTHON_DIR)
-	# install -m 755 $(CURDIR)/clamtk-gnome.py $(PYTHON_DIR)/clamtk-gnome.py
-	cp $(CURDIR)/clamtk-gnome.py $(PYTHON_DIR)/
+	@echo Installing locales now...
+	for locale in $(shell ls $(CURDIR)/po/*.mo | sed 's@.*/\(.*\)\.mo@\1@g'); \
+		do mkdir -p $(LOCALES_DIR)/$$locale/LC_MESSAGES/ && \
+		install -m 644 $(CURDIR)/po/$$locale.mo $(LOCALES_DIR)/$$locale/LC_MESSAGES/clamtk.mo; \
+	done
+	-rm -rf $(LOCALES_DIR)/clamtk/
 
-	mkdir -p $(IMAGES_DIR)
-	# install -m 644 $(CURDIR)/images/* $(IMAGES_DIR)
-	cp $(CURDIR)/images/* $(IMAGES_DIR)/
+	mkdir -p $(BIN_DIR)
+	install -m 755 $(CURDIR)/clamtk $(BIN_DIR)/clamtk
 
-	dh_installdocs README.md DISCLAIMER
+	# mkdir -p $(HELP_DIR)
+	# cp -ap $(CURDIR)/help/* $(HELP_DIR)/
+
+	mkdir -p $(IMAGES_DIR) $(LEGACY_IMAGES_DIR)
+	install -m 644 $(CURDIR)/images/clamtk.* $(IMAGES_DIR)
+	install -m 644 $(CURDIR)/images/clamtk.* $(LEGACY_IMAGES_DIR)
+
+	mkdir -p $(LIB_DIR)
+	cp $(CURDIR)/lib/* $(LIB_DIR)
+
+	mkdir -p $(METAINFO)
+	install -m 644 $(CURDIR)/com.github.davetheunsub.clamtk.appdata.xml \
+		$(METAINFO)
+
+	dh_installdocs README.md
 	dh_installchangelogs CHANGES
-	dh_installman	clamtk-gnome.1.gz
-	dh_python3
+	dh_installman clamtk.1.gz
 
 %:
-	dh $@  --with python3
+	dh $@
