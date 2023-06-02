@@ -12,6 +12,9 @@ IMAGES_DIR	= $(CURDIR)/debian/clamtk/usr/share/icons/hicolor/128x128/apps
 LIB_DIR			= $(CURDIR)/debian/clamtk/usr/share/perl5/ClamTk
 METAINFO		= $(CURDIR)/debian/clamtk/usr/share/metainfo
 
+override_dh_builddeb:
+	dh_builddeb -- -Zgzip
+
 override_dh_auto_install:
 	@echo Installing locales now...
 	for locale in $(shell ls $(CURDIR)/po/*.mo | sed 's@.*/\(.*\)\.mo@\1@g'); \

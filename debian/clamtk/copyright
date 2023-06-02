@@ -1,7 +1,7 @@
 Source downloaded from https://github.com/dave-theunsub/clamtk/releases.
 
 Files: debian/*
-Copyright: © 2013-2021, Dave M <dave.nerd@gmail.com>
+Copyright: © 2013-2023, Dave M <dave.nerd@gmail.com>
            © 2007-2013, David Paleino <d.paleino@gmail.com>
            © 2005, Daniel Holbach <dh@mailempfang.de>
 License: GPL-3+
@@ -11,7 +11,7 @@ License: GPL-3+
  (at your option) any later version.
 
 Files: *
-Copyright: © 2004-2021, Dave Mauroni <dave.nerd@gmail.com>
+Copyright: © 2004-2023, Dave Mauroni <dave.nerd@gmail.com>
 License: GPL-1+ | Artistic
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -27,7 +27,7 @@ Artistic `/usr/share/common-licenses/Artistic'
 GPL `/usr/share/common-licenses/GPL'
 
 Files: po/*
-Copyright: © 2004-2021, Dave M <dave.nerd@gmail.com>
+Copyright: © 2004-2023, Dave M <dave.nerd@gmail.com>
 License: BSD
 Copyright (c) The Regents of the University of California.
 All rights reserved.

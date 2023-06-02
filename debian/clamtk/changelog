@@ -1,3 +1,11 @@
+clamtk (6.16-1) unstable; urgency=low
+
+  * Update to 6.16.
+  * Update copyright years in build files.
+  * Specify compression to gzip (Github #152).
+
+ -- Dave M <dave.nerd@gmail.com>  Fri, 02 Jun 2023 07:41:03 -0500
+
 clamtk (6.15-1) unstable; urgency=low
 
   * Update to 6.15.
