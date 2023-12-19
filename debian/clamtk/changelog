@@ -1,3 +1,9 @@
+clamtk (6.17-1) unstable; urgency=low
+
+  * Update to 6.17.
+
+ -- Dave M <dave.nerd@gmail.com>  Mon, 18 Dec 2023 08:21:29 -0600
+
 clamtk (6.16-1) unstable; urgency=low
 
   * Update to 6.16.
