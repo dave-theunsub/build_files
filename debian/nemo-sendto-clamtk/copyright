@@ -1,9 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: nemo-sendto-clamtk
-Source: https://bitbucket.org/davem_/nemo-sendto-clamtk
+Source: https://github.com/dave-theunsub/nemo-sendto-clamtk
 
 Files: *
-Copyright: 2013-2022 Dave M <dave.nerd @ gmail.com>
+Copyright: 2013-2024 Dave M <dave.nerd @ gmail.com>
 License: Artistic | GPL+
  This program is free software; you can redistribute it and or modify
  it under the terms of the GNU General Public License as published by
@@ -12,7 +12,7 @@ License: Artistic | GPL+
  ---
 
 Files: debian/*
-Copyright: 2013-2022 Dave M <dave.nerd@gmail.com>
+Copyright: 2013-2024 Dave M <dave.nerd@gmail.com>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
