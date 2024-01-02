@@ -33,7 +33,7 @@ install -p -D -m0644 %{name}.nemo_action %{buildroot}/%{_datadir}/nemo/actions/
 %{_datadir}/nemo/actions/%{name}.nemo_action
 
 %changelog
-* Mon Jan 1 2024 Dave M. <dave.nerd@gmail.com> - 0.07-1
+* Tue Jan 2 2024 Dave M. <dave.nerd@gmail.com> - 0.07-1
 - Updated to release 0.07.
 
 * Sun Feb 21 2022 Dave M. <dave.nerd@gmail.com> - 0.06-1
