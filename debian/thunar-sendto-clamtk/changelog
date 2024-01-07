@@ -1,3 +1,17 @@
+thunar-sendto-clamtk (0.08-2) unstable; urgency=low
+
+  * Github #2 (Unable to install on debian bullseye (no support for deb format
+    tar.zst))
+
+ -- Dave M <dave.nerd@gmail.com>  Sat, 06 Jan 2024 22:38:10 -0600
+
+thunar-sendto-clamtk (0.08-1) unstable; urgency=low
+
+  * Update to 0.08.
+  * Update homepage link in control.
+
+ -- Dave M <dave.nerd@gmail.com>  Tue, 02 Jan 2024 03:55:19 -0600
+
 thunar-sendto-clamtk (0.07-1) unstable; urgency=low
 
   * Update to 0.07.
