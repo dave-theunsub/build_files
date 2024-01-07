@@ -1,3 +1,9 @@
+nemo-sendto-clamtk (0.07-2) unstable; urgency=low
+
+  * Rebuild with xz compression
+
+ -- Dave M <dave.nerd@gmail.com>  Sun, 07 Jan 2024 05:25:06 -0600
+
 nemo-sendto-clamtk (0.07-1) unstable; urgency=low
 
   * New upstream release
