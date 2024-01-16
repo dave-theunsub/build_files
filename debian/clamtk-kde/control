@@ -2,8 +2,8 @@ Source: clamtk-kde
 Section: utils
 Priority: optional
 Maintainer: Dave M <dave.nerd@gmail.com>
-Build-Depends: debhelper (>= 9~),
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 11),
+Standards-Version: 3.9.8
 Homepage: https://github.com/dave-theunsub/clamtk-kde
 Vcs-Git: git@github.com:dave-theunsub/clamtk-kde.git
 Vcs-Browser: https://github.com/dave-theunsub/clamtk-kde.git
