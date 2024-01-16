@@ -1,5 +1,5 @@
 Name: clamtk-kde
-Version: 0.19
+Version: 0.20
 Release: 1%{dist}
 Summary: Plugin to allow right-click virus-scanning from within KDE
 License: GPL+ or Artistic 2.0
@@ -17,9 +17,9 @@ Requires: clamtk >= 5.00, kf5-filesystem
 %description
 ClamTk is a front-end for ClamAV antivirus.
 
-This plugin adds a context menu which allows one to right-click on
-files and directories from within KDE and utilize the ClamTk
-front-end for virus scanning.
+clamtk-kde adds a context menu item to allow for the ability to right-click
+on a file or folder from within the Konqueror or Dolphin browsers
+to easily scan the selected item for threats.
 
 %prep
 %setup -q
@@ -46,6 +46,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/clamtk-kde.1*
 
 %changelog
+* Mon Jan 15 2024 Dave M. <dave.nerd@gmail.com> - 0.20-1
+- Upgraded to 0.20.
+
 * Sun Nov 14 2021 Dave M. <dave.nerd@gmail.com> - 0.19-1
 - Upgraded to 0.19.
 - Remove .fc tag.
