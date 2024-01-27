@@ -23,7 +23,8 @@ I currently build binaries for Fedora, CentOS 7/8/9, and Ubuntu.  One of these d
 Feel free to contact me for suggestions, comments, criticisms, etc.
 
 Dave M  
-[0x2A703397D65F2FE2](https://keys.openpgp.org/vks/v1/by-fingerprint/FA2B7739CC4C2514F2E58D1A2A703397D65F2FE2)  
+* Dave M, dave.nerd @gmail.com
+  [0xC81DF0FAC4AFEB22](https://davem.fedorapeople.org/RPM-GPG-KEY-DaveM-20230506)
 
 ##### TODO  
   
